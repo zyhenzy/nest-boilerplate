@@ -2,8 +2,8 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { HeroModule } from './hero/hero.module';
-import { Hero } from './hero/entity/hero.entity';
+import { HeroModule } from './modules/hero/hero.module';
+import { Hero } from './modules/hero/entity/hero.entity';
 
 @Module({
   imports: [
@@ -17,7 +17,7 @@ import { Hero } from './hero/entity/hero.entity';
       entities: [Hero],
       synchronize: true,
     }),
-    HeroModule
+    HeroModule,
   ],
   controllers: [AppController],
   providers: [AppService],
