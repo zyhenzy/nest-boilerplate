@@ -2,6 +2,20 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Hero } from './entity/hero.entity';
+import { generateHero } from './utils';
+import {
+  commemorate,
+  core,
+  halfCore,
+  huang,
+  jue,
+  jueCore,
+  material,
+  normal,
+  useful,
+  xpCore,
+  xpHalfCore,
+} from './const/hero';
 
 @Injectable()
 export class HeroService {
@@ -29,5 +43,23 @@ export class HeroService {
 
   async remove(id: number): Promise<void> {
     await this.heroRepository.delete(id);
+  }
+
+  async bulkImport(): Promise<Hero[]> {
+    const heroes: Hero[] = [
+      ...generateHero(jueCore, 10),
+      ...generateHero(huang, 8),
+      ...generateHero(core, 7),
+      ...generateHero(halfCore, 6),
+      ...generateHero(xpCore, 5),
+      ...generateHero(xpHalfCore, 4),
+      ...generateHero(jue, 3),
+      ...generateHero(useful, 2),
+      ...generateHero(normal, 1),
+      ...generateHero(material, 0),
+      ...generateHero(commemorate, 1),
+    ];
+    const heroEntities = this.heroRepository.create(heroes);
+    return await this.heroRepository.save(heroEntities);
   }
 }
