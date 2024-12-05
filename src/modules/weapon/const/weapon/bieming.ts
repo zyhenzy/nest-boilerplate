@@ -1,0 +1,30 @@
+export const bieming = [
+    {gear_id: 1027, name: '别鸣', featureId: 30108, featureName: '灵动24', price: 2500},
+    {gear_id: 1027, name: '别鸣', featureId: 30109, featureName: '灵动26', price: 2800},
+    {gear_id: 1027, name: '别鸣', featureId: 30110, featureName: '灵动28', price: 3800},
+    {gear_id: 1027, name: '别鸣', featureId: 30111, featureName: '灵动30', price: 5800},
+    {gear_id: 1027, name: '别鸣', featureId: 30408, featureName: '仁心12', price: 1100},
+    {gear_id: 1027, name: '别鸣', featureId: 30409, featureName: '仁心13', price: 1300},
+    {gear_id: 1027, name: '别鸣', featureId: 30410, featureName: '仁心14', price: 1800},
+    {gear_id: 1027, name: '别鸣', featureId: 30411, featureName: '仁心15', price: 4800},
+    {gear_id: 1027, name: '别鸣', featureId: 30508, featureName: '坚忍17', price: 800},
+    {gear_id: 1027, name: '别鸣', featureId: 30509, featureName: '坚忍18', price: 900},
+    {gear_id: 1027, name: '别鸣', featureId: 30510, featureName: '坚忍19', price: 900},
+    {gear_id: 1027, name: '别鸣', featureId: 30511, featureName: '坚忍20', price: 3000},
+    {gear_id: 1027, name: '别鸣', featureId: 30205, featureName: '机敏7', price: 2000},
+    {gear_id: 1027, name: '别鸣', featureId: 30206, featureName: '机敏8', price: 3000},
+    {gear_id: 1027, name: '别鸣', featureId: 30207, featureName: '机敏9', price: 20000},
+    // fixme 清毅featureId不明，效果不明
+    {gear_id: 1027, name: '别鸣', featureId: 30306, featureName: '清毅', price: 400},
+    {gear_id: 1027, name: '别鸣', featureId: 30307, featureName: '清毅', price: 400},
+    {gear_id: 1027, name: '别鸣', featureId: 30308, featureName: '清毅', price: 3000},
+    {gear_id: 1027, name: '别鸣', featureId: 30608, featureName: '艮止24', price: 500},
+    {gear_id: 1027, name: '别鸣', featureId: 30609, featureName: '艮止26', price: 500},
+    {gear_id: 1027, name: '别鸣', featureId: 30610, featureName: '艮止28', price: 1500},
+    {gear_id: 1027, name: '别鸣', featureId: 30611, featureName: '艮止30', price: 5000},
+    // fixme 惑言效果不明
+    {gear_id: 1027, name: '别鸣', featureId: 30706, featureName: '惑言?', price: 300},
+    {gear_id: 1027, name: '别鸣', featureId: 30707, featureName: '惑言?', price: 400},
+    {gear_id: 1027, name: '别鸣', featureId: 30708, featureName: '惑言?', price: 3000},
+
+];

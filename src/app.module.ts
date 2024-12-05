@@ -4,6 +4,8 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { HeroModule } from './modules/hero/hero.module';
 import { Hero } from './modules/hero/entity/hero.entity';
+import { WeaponModule } from './modules/weapon/weapon.module';
+import { Weapon } from './modules/weapon/entity/weapon.entity';
 
 @Module({
   imports: [
@@ -14,10 +16,11 @@ import { Hero } from './modules/hero/entity/hero.entity';
       username: 'root',
       password: '123456',
       database: 'stzb',
-      entities: [Hero],
+      entities: [Hero, Weapon],
       synchronize: true,
     }),
     HeroModule,
+    WeaponModule,
   ],
   controllers: [AppController],
   providers: [AppService],
