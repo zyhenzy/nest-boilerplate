@@ -27,8 +27,8 @@ export class HeroController {
   }
 
   @ApiOperation({
-    summary: '移除英雄',
-    description: '移除英雄',
+    summary: '根据ID查询英雄',
+    description: '根据ID查询英雄',
   })
   @Get(':id')
   async findOne(@Param('id') id: number): Promise<Hero | null> {
