@@ -77,7 +77,7 @@ export class ConditionController {
     summary: '执行检索条件',
     description: '执行检索条件',
   })
-  @Post('perform')
+  @Post('/perform')
   perform(@Body() condition: Condition) {
     return this.conditionService.perform(condition);
   }
