@@ -25,7 +25,7 @@ export class AccountService {
     condition: Condition,
   ): Promise<Account> {
     const account = new Account();
-    account.id = accountMeta.id;
+    account.id = accountMeta.game_ordersn;
     account.metadata = accountMeta;
     account.conditions = [condition]; // Associate with condition
     return this.accountRepository.save(account);
