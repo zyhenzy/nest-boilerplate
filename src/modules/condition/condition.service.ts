@@ -2,11 +2,13 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Condition } from './entity/condition.entity';
+import { ConditionVO } from './vo/condition.vo';
 import { fetchAccountDetail, fetchAccountList } from './util';
 import * as fs from 'fs-extra';
 import { TOKEN_URL } from './config';
 import { sleep } from '../../utils';
 import { AccountService } from '../account/account.service';
+import { HeroService } from '../hero/hero.service';
 
 @Injectable()
 export class ConditionService {
@@ -14,18 +16,32 @@ export class ConditionService {
     @InjectRepository(Condition)
     private readonly conditionRepository: Repository<Condition>,
     private readonly accountService: AccountService, // 注入AccountService
+    private readonly heroService: HeroService, // 注入 HeroService
   ) {}
 
   async create(condition: Condition): Promise<Condition> {
     return await this.conditionRepository.save(condition);
   }
 
-  async findAll(): Promise<Condition[]> {
-    return await this.conditionRepository.find({
+  async findAll(): Promise<ConditionVO[]> {
+    const conditions = await this.conditionRepository.find({
       order: {
         createdAt: 'ASC',
       },
     });
+
+    const conditionVOs: ConditionVO[] = [];
+    for (const condition of conditions) {
+      const heroNames = await this.heroService.findNamesByIds(
+        condition.cardHeroId,
+      );
+      const conditionVO = new ConditionVO();
+      Object.assign(conditionVO, condition);
+      conditionVO.heroNames = condition.cardHeroId.map((id) => heroNames[id]);
+      conditionVOs.push(conditionVO);
+    }
+
+    return conditionVOs;
   }
 
   async findOne(id: string): Promise<Condition | null> {

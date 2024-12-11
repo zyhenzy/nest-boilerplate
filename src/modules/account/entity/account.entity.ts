@@ -18,6 +18,6 @@ export class Account {
     description: 'Metadata',
     additionalProperties: true,
   })
-  @Column('jsonb', { nullable: true, comment: 'Metadata' })
+  @Column('json', { nullable: true, comment: 'Metadata' })
   metadata: Record<string, any>;
 }

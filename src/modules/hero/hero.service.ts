@@ -37,4 +37,13 @@ export class HeroService {
     const heroEntities = this.heroRepository.create(heroes);
     return await this.heroRepository.save(heroEntities);
   }
+
+  async findNamesByIds(ids: string[]): Promise<{ [key: string]: string }> {
+    const heroes = await this.heroRepository.findByIds(ids);
+    const heroNames: { [key: string]: string } = {};
+    heroes.forEach((hero) => {
+      heroNames[hero.heroId] = hero.name;
+    });
+    return heroNames;
+  }
 }
