@@ -2,21 +2,14 @@ import { Condition } from '../entity/condition.entity';
 import {
   ACCOUNT_URL,
   ApprenticeCode,
+  BASE_ACCOUNT_PARAMS,
   BASE_LIST_PARAMS,
   TOKEN_URL,
 } from '../config';
 import { cloneDeep } from 'lodash';
 import * as fs from 'fs-extra';
 import axios from 'axios';
-
-/**
- * 睡眠函数
- * @param delayTime
- */
-export const sleep = (delayTime = 1000) => {
-  const realDelayTime = delayTime + Math.random() * 5000;
-  return new Promise((resolve) => setTimeout(resolve, realDelayTime));
-};
+import { sleep } from '../../../utils';
 
 const getCookies = () => {
   const data = fs.readFileSync(TOKEN_URL, 'utf8');
@@ -75,4 +68,19 @@ export const fetchAccountList = async (condition: Condition) => {
     await sleep(5000);
   }
   return Promise.resolve(accountList);
+};
+
+/**
+ * 获取账号详情
+ * @param game_ordersn
+ */
+export const fetchAccountDetail = async (game_ordersn: string) => {
+  const option = cloneDeep(BASE_ACCOUNT_PARAMS);
+  option.data.ordersn = game_ordersn;
+  const res = await axios(option);
+  if (res.data.status === 1) {
+    return res.data.equip;
+  } else {
+    throw new Error('获取账号详情失败');
+  }
 };

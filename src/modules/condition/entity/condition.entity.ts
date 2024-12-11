@@ -4,14 +4,19 @@ import {
   PrimaryGeneratedColumn,
   CreateDateColumn,
   UpdateDateColumn,
+  ManyToMany,
 } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
+import { Account } from 'src/modules/account/entity/account.entity';
 
 @Entity()
 export class Condition {
   @ApiProperty()
   @PrimaryGeneratedColumn('uuid')
   id: string; // uuid
+
+  @ManyToMany(() => Account, (account) => account.conditions)
+  accounts: Account[];
 
   @ApiProperty({ type: Number, description: '最小金额' })
   @Column({ type: 'int', name: 'priceMin', comment: '最小金额' })

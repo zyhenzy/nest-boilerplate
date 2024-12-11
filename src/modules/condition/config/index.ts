@@ -2,6 +2,8 @@ export const TOKEN_URL =
   '/Users/zhangying/个人/boilerplate/nest-boilerplate/src/static/token.txt';
 
 export const ACCOUNT_URL = 'https://stzb.cbg.163.com/cgi-bin/recommend.py'; // 账号列表url
+export const ACCOUNT_DETAIL_URL =
+  'https://stzb.cbg.163.com/cgi/api/get_equip_detail'; // 账号详情URL
 
 // 账号列表参数
 export const BASE_LIST_PARAMS = {
@@ -23,6 +25,23 @@ export const BASE_LIST_PARAMS = {
       field_id: 'f_kingkong',
       content_id: '',
     },
+  },
+};
+
+// 账号详情参数
+export const BASE_ACCOUNT_PARAMS = {
+  method: 'post',
+  url: ACCOUNT_DETAIL_URL,
+  headers: {
+    'Content-Type': 'application/x-www-form-urlencoded',
+    cookie: '',
+  },
+  data: {
+    serverid: 1,
+    ordersn: '',
+    view_loc: 'search_cond|tag_key:{"is_from_ad_reco": 0, "tag": "user"}',
+    exter: 'direct',
+    page_session_id: '0186AFEE-4719-4AFE-5930-8277517B3DD8',
   },
 };
 

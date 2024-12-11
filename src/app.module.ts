@@ -8,6 +8,8 @@ import { WeaponModule } from './modules/weapon/weapon.module';
 import { Weapon } from './modules/weapon/entity/weapon.entity';
 import { ConditionModule } from './modules/condition/condition.module';
 import { Condition } from './modules/condition/entity/condition.entity';
+import { Account } from './modules/account/entity/account.entity';
+import { AccountModule } from './modules/account/account.module';
 
 @Module({
   imports: [
@@ -18,12 +20,13 @@ import { Condition } from './modules/condition/entity/condition.entity';
       username: 'root',
       password: '123456',
       database: 'stzb',
-      entities: [Hero, Weapon, Condition],
+      entities: [Hero, Weapon, Condition, Account],
       synchronize: true,
     }),
     HeroModule,
     WeaponModule,
     ConditionModule,
+    AccountModule,
   ],
   controllers: [AppController],
   providers: [AppService],
