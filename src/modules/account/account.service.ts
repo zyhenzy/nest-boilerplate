@@ -3,6 +3,8 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Account } from './entity/account.entity';
 import { Condition } from '../condition/entity/condition.entity';
+import { Hero } from '../hero/entity/hero.entity';
+import { Weapon } from '../weapon/entity/weapon.entity';
 
 @Injectable()
 export class AccountService {
@@ -19,15 +21,17 @@ export class AccountService {
    * 根据账号元数据，插入账号
    * @param accountMeta
    * @param condition
+   * @param heroAll
+   * @param weaponAll
    */
   async insertAccount(
     accountMeta: any,
     condition: Condition,
+    heroAll: Hero[],
+    weaponAll: Weapon[],
   ): Promise<Account> {
-    const account = new Account();
-    account.id = accountMeta.game_ordersn;
-    account.metadata = accountMeta;
-    account.conditions = [condition]; // Associate with condition
+    const account = Account.create(accountMeta, heroAll, weaponAll);
+    account.conditions = [condition];
     return this.accountRepository.save(account);
   }
 }

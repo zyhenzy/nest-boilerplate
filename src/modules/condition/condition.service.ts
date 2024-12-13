@@ -9,14 +9,16 @@ import { TOKEN_URL } from './config';
 import { sleep } from '../../utils';
 import { AccountService } from '../account/account.service';
 import { HeroService } from '../hero/hero.service';
+import { WeaponService } from '../weapon/weapon.service';
 
 @Injectable()
 export class ConditionService {
   constructor(
     @InjectRepository(Condition)
     private readonly conditionRepository: Repository<Condition>,
-    private readonly accountService: AccountService, // 注入AccountService
-    private readonly heroService: HeroService, // 注入 HeroService
+    private readonly accountService: AccountService,
+    private readonly heroService: HeroService,
+    private readonly weaponService: WeaponService,
   ) {}
 
   async create(condition: Condition): Promise<Condition> {
@@ -69,15 +71,22 @@ export class ConditionService {
   // 执行条件
   async perform(condition: Condition) {
     console.log(`-----开始分析-----`);
+    const heroAll = await this.heroService.findAll();
+    const weaponAll = await this.weaponService.findAll();
     const accountList = await fetchAccountList(condition); // 1. 获取账号列表
+    await sleep(5000);
     for (let i = 0; i < accountList.length; i++) {
       console.log(`正在获取第 ${i + 1} 个账号详情`);
       const account = accountList[i];
       const accountMeta = await fetchAccountDetail(account.game_ordersn); // 2. 获取账号详情
-      await this.accountService.insertAccount(accountMeta, condition); // 3. 插入账号
+      await this.accountService.insertAccount(
+        accountMeta,
+        condition,
+        heroAll,
+        weaponAll,
+      ); // 3. 插入账号
       await sleep(5000);
     }
-    console.log('账号列表为：');
-    console.log(accountList);
+    console.log(`-----分析结束-----`);
   }
 }
