@@ -5,7 +5,7 @@ export class AccountHero extends Hero {
 
   constructor(meta: any) {
     super();
-    this.heroId = meta.hero_id;
+    this.id = meta.hero_id;
     this.name = meta.name;
     this.country = meta.country;
     this.advanceNum = meta.advance_num;

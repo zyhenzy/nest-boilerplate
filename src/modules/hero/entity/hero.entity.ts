@@ -8,8 +8,8 @@ export class Hero {
   // id: string; // uuid
 
   @ApiProperty({ type: Number, description: '英雄编码' })
-  @PrimaryColumn({ type: 'int', name: 'heroId', comment: '英雄编码' })
-  heroId: number;
+  @PrimaryColumn({ type: 'int', name: 'id', comment: '英雄编码' })
+  id: number;
 
   @ApiProperty({ type: String, description: '英雄名称' })
   @Column({ type: 'varchar', name: 'name', comment: '英雄名称' })

@@ -113,7 +113,7 @@ export class Account {
     this.heroScore = 0;
     this.seasonScore = 0;
     this.heroList.forEach((accountHero) => {
-      const findHero = heroAll.find((h) => h.heroId === accountHero.heroId);
+      const findHero = heroAll.find((h) => h.id === accountHero.id);
       if (findHero) {
         const num = findHero.score * accountHero.advanceNum;
         this.heroScore += num;

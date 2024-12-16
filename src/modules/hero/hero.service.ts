@@ -20,7 +20,7 @@ export class HeroService {
   }
 
   async findOne(id: number): Promise<Hero | null> {
-    return await this.heroRepository.findOne({ where: { heroId: id } });
+    return await this.heroRepository.findOne({ where: { id } });
   }
 
   async update(id: number, updatedHero: Hero): Promise<Hero | null> {
@@ -42,7 +42,7 @@ export class HeroService {
     const heroes = await this.heroRepository.findByIds(ids);
     const heroNames: { [key: string]: string } = {};
     heroes.forEach((hero) => {
-      heroNames[hero.heroId] = hero.name;
+      heroNames[hero.id] = hero.name;
     });
     return heroNames;
   }

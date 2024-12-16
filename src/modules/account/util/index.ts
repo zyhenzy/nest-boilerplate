@@ -4,7 +4,7 @@ export const delDuplication = (cardList: AccountHero[]) => {
   const list: AccountHero[] = [];
   cardList.forEach((card) => {
     const findIndex = list.findIndex((item) => {
-      return item.heroId === card.heroId;
+      return item.id === card.id;
     });
     if (findIndex !== -1) {
       list[findIndex].advanceNum += card.advanceNum;

@@ -12,7 +12,7 @@ import { Condition } from './entity/condition.entity';
 import { ApiOperation } from '@nestjs/swagger';
 import { CookieDto } from './dto/cookie.dto';
 
-@Controller('conditions')
+@Controller('condition')
 export class ConditionController {
   constructor(private readonly conditionService: ConditionService) {}
 
