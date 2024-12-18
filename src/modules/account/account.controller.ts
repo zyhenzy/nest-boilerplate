@@ -1,9 +1,9 @@
-import { Controller, Post, Body } from '@nestjs/common';
+import { Controller, Post, Body, Get, HttpCode, Param } from '@nestjs/common';
 import { AccountService } from './account.service';
 import { Account } from './entity/account.entity';
 import { ApiOperation } from '@nestjs/swagger';
 
-@Controller('accounts')
+@Controller('account')
 export class AccountController {
   constructor(private readonly accountService: AccountService) {}
 
@@ -14,5 +14,13 @@ export class AccountController {
   @Post()
   async create(@Body() account: Account): Promise<Account> {
     return this.accountService.create(account);
+  }
+
+  @Get('/findByCondition/:conditionId')
+  @HttpCode(200)
+  async findByCondition(
+    @Param('conditionId') conditionId: string,
+  ): Promise<Account[]> {
+    return this.accountService.findByCondition(conditionId);
   }
 }

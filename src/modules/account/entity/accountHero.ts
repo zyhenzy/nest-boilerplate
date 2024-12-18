@@ -8,6 +8,7 @@ export class AccountHero extends Hero {
     this.id = meta.hero_id;
     this.name = meta.name;
     this.country = meta.country;
+    this.season = meta.season;
     this.advanceNum = meta.advance_num;
   }
 }

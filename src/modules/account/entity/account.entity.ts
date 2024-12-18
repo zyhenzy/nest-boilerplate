@@ -102,6 +102,8 @@ export class Account {
       (i: any) => new AccountWeapon(i),
     );
     account.computeHeroScore(heroAll);
+    account.computeWeaponScore(weaponAll);
+    account.computeScore();
     // console.log(account);
     return account;
   }
@@ -117,8 +119,17 @@ export class Account {
       if (findHero) {
         const num = findHero.score * accountHero.advanceNum;
         this.heroScore += num;
-        this.seasonScore += num;
+        if (findHero.season !== 'XP') {
+          this.seasonScore += num;
+        }
       }
     });
+  }
+
+  computeWeaponScore(weaponAll: Weapon[]) {}
+
+  computeScore() {
+    this.score = 0;
+    this.score += this.heroScore;
   }
 }

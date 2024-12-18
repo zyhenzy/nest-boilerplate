@@ -35,6 +35,7 @@ export const generateHero = (heroes: any[], score: number): Hero[] => {
       id: hero.hero_id,
       name: hero.name,
       country: hero.country,
+      season: hero.season,
       score,
     };
   });

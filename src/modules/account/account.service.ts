@@ -34,4 +34,21 @@ export class AccountService {
     account.conditions = [condition];
     return this.accountRepository.save(account);
   }
+
+  async findByCondition(conditionId: string): Promise<Account[]> {
+    console.log('condition id 为：');
+    console.log(conditionId);
+    const data = await this.accountRepository
+      .createQueryBuilder('account')
+      .innerJoin(
+        'account.conditions',
+        'condition',
+        'condition.id = :conditionId',
+        {
+          conditionId,
+        },
+      )
+      .getMany();
+    return data;
+  }
 }

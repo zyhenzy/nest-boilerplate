@@ -26,6 +26,17 @@ export class Hero {
   })
   country: string;
 
+  @ApiProperty({
+    type: String,
+    description: '赛季 N SP XP S3 S2',
+  })
+  @Column({
+    type: 'varchar',
+    name: 'season',
+    comment: '赛季 N SP XP S3 S2',
+  })
+  season: string;
+
   @ApiProperty({ type: Number, description: '评分' })
   @Column({ type: 'int', name: 'score', comment: '评分' })
   score: number;
