@@ -20,7 +20,7 @@ export class WeaponService {
   }
 
   async findOne(id: number): Promise<Weapon | null> {
-    return await this.weaponRepository.findOne({ where: { weaponId: id } });
+    return await this.weaponRepository.findOne({ where: { id: id } });
   }
 
   async update(id: number, updatedWeapon: Weapon): Promise<Weapon | null> {
@@ -34,6 +34,8 @@ export class WeaponService {
 
   async bulkImport(): Promise<Weapon[]> {
     const weapons: Weapon[] = getAllWeapon();
+    console.log(weapons);
+    debugger;
     const weaponEntities = this.weaponRepository.create(weapons);
     return await this.weaponRepository.save(weaponEntities);
   }

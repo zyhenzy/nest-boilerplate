@@ -36,9 +36,7 @@ export class AccountService {
   }
 
   async findByCondition(conditionId: string): Promise<Account[]> {
-    console.log('condition id 为：');
-    console.log(conditionId);
-    const data = await this.accountRepository
+    return await this.accountRepository
       .createQueryBuilder('account')
       .innerJoin(
         'account.conditions',
@@ -49,6 +47,18 @@ export class AccountService {
         },
       )
       .getMany();
-    return data;
+  }
+
+  /**
+   * 修改中介价格
+   * @param id
+   * @param price
+   */
+  async updatePrice(id: string, price: number) {
+    const account = await this.accountRepository.findOneBy({ id });
+    if (account) {
+      account.updatePrice(price * 100);
+      return await this.accountRepository.save(account);
+    }
   }
 }

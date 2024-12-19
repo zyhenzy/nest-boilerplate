@@ -4,8 +4,8 @@ import { ApiProperty } from '@nestjs/swagger';
 @Entity()
 export class Weapon {
   @ApiProperty({ type: Number, description: 'ID' })
-  @PrimaryColumn({ type: 'int', name: 'weaponId', comment: 'ID' })
-  weaponId: number;
+  @PrimaryColumn({ type: 'int', name: 'id', comment: 'ID' })
+  id: number;
 
   @ApiProperty({ type: Number, description: '武器编码' })
   @Column({ type: 'int', name: 'gearId', comment: '武器编码' })

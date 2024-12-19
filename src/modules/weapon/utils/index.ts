@@ -52,7 +52,7 @@ export const getAllWeapon = (): Weapon[] => {
 export const generateWeapon = (weapons: any[]): Weapon[] => {
   return weapons.map((weapon) => {
     return {
-      weaponId: Number(weapon.gear_id.toString() + weapon.featureId.toString()),
+      id: Number(weapon.gear_id.toString() + weapon.featureId.toString()),
       gearId: weapon.gear_id,
       name: weapon.name,
       featureId: weapon.featureId,

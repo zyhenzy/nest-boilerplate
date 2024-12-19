@@ -37,11 +37,28 @@ export class Account {
   })
   @Column({
     type: 'int',
+    name: 'heroPrice',
+    comment: '英雄价格',
+    default: 0,
+  })
+  heroPrice: number;
+
+  @ApiProperty({
+    type: Number,
+  })
+  @Column({
+    type: 'int',
     name: 'intermediaryPrice',
     comment: '中介价格',
     default: 0,
   })
   intermediaryPrice: number;
+
+  @ApiProperty({
+    type: Number,
+  })
+  @Column({ type: 'int', name: 'weaponPrice', comment: '武器标价', default: 0 })
+  weaponPrice: number;
 
   @ApiProperty({ type: [AccountHero] })
   @Column({ type: 'simple-json', name: 'heroList', comment: '武将列表' })
@@ -74,6 +91,28 @@ export class Account {
   })
   seasonScore: number;
 
+  @ApiProperty({
+    type: Number,
+  })
+  @Column({
+    type: 'float',
+    name: 'scoreRate',
+    comment: '综合性价比',
+    default: 0,
+  })
+  scoreRate: number;
+
+  @ApiProperty({
+    type: Number,
+  })
+  @Column({
+    type: 'float',
+    name: 'seasonScoreRate',
+    comment: 'S赛季性价比',
+    default: 0,
+  })
+  seasonScoreRate: number;
+
   /**
    * 创建账号
    * @param meta 账号元数据
@@ -94,7 +133,6 @@ export class Account {
     account.id = _meta.game_ordersn;
     account.meta = _meta;
     account.price = _meta.price;
-    // todo:测试插入英雄是否有效
     account.heroList = delDuplication(
       equip_desc_obj.card.map((i: any) => new AccountHero(i)),
     );
@@ -102,14 +140,14 @@ export class Account {
       (i: any) => new AccountWeapon(i),
     );
     account.computeHeroScore(heroAll);
-    account.computeWeaponScore(weaponAll);
+    account.computeWeaponPrice(weaponAll);
     account.computeScore();
-    // console.log(account);
     return account;
   }
 
   /**
    * 计算武将分数
+   * @param heroAll
    */
   computeHeroScore(heroAll: Hero[]) {
     this.heroScore = 0;
@@ -126,10 +164,46 @@ export class Account {
     });
   }
 
-  computeWeaponScore(weaponAll: Weapon[]) {}
+  /**
+   * 计算武器价格
+   * @param weaponAll
+   */
+  computeWeaponPrice(weaponAll: Weapon[]) {
+    this.weaponPrice = 0;
+    // 计算武器价格
+    this.weaponList.forEach((accountWeapon, index) => {
+      const findWeapon = weaponAll.find((w) => {
+        return w.id === accountWeapon.id;
+      });
+      if (findWeapon) {
+        this.weaponList[index].price = findWeapon.price;
+        this.weaponPrice += findWeapon.price * 100;
+      }
+    });
+  }
 
+  /**
+   * 计算分数、价格、性价比
+   */
   computeScore() {
     this.score = 0;
     this.score += this.heroScore;
+    if (this.intermediaryPrice) {
+      this.heroPrice = this.intermediaryPrice - this.weaponPrice;
+    } else {
+      this.heroPrice = this.price - this.weaponPrice;
+    }
+    this.seasonScoreRate = (this.seasonScore / this.heroPrice) * 100000;
+    this.scoreRate = (this.heroScore / this.heroPrice) * 100000;
+  }
+
+  /**
+   * 改价，中介报价
+   * @private
+   * @param price
+   */
+  public updatePrice(price: number) {
+    this.intermediaryPrice = price;
+    this.computeScore();
   }
 }
