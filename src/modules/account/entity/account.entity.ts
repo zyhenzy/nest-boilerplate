@@ -118,8 +118,14 @@ export class Account {
    * @param meta 账号元数据
    * @param heroAll 所有英雄，为了计算分数
    * @param weaponAll 所有武器，为了获取武器价格
+   * @param intermediaryPrice
    */
-  static create(meta: any, heroAll: Hero[], weaponAll: Weapon[]): Account {
+  static create(
+    meta: any,
+    heroAll: Hero[],
+    weaponAll: Weapon[],
+    intermediaryPrice?: number,
+  ): Account {
     const account = new Account();
     const _meta = meta;
     let equip_desc_obj;
@@ -139,6 +145,7 @@ export class Account {
     account.weaponList = equip_desc_obj.gear.map(
       (i: any) => new AccountWeapon(i),
     );
+    account.intermediaryPrice = intermediaryPrice || 0;
     account.computeHeroScore(heroAll);
     account.computeWeaponPrice(weaponAll);
     account.computeScore();
@@ -155,7 +162,7 @@ export class Account {
     this.heroList.forEach((accountHero) => {
       const findHero = heroAll.find((h) => h.id === accountHero.id);
       if (findHero) {
-        const num = findHero.score * accountHero.advanceNum;
+        const num = findHero.score + findHero.score * accountHero.advanceNum;
         this.heroScore += num;
         if (findHero.season !== 'XP') {
           this.seasonScore += num;

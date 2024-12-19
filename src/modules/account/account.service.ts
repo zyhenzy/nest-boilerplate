@@ -30,7 +30,15 @@ export class AccountService {
     heroAll: Hero[],
     weaponAll: Weapon[],
   ): Promise<Account> {
-    const account = Account.create(accountMeta, heroAll, weaponAll);
+    const accountOld = await this.accountRepository.findOneBy({
+      id: accountMeta.game_ordersn,
+    });
+    const account = Account.create(
+      accountMeta,
+      heroAll,
+      weaponAll,
+      accountOld?.intermediaryPrice || 0,
+    );
     account.conditions = [condition];
     return this.accountRepository.save(account);
   }
