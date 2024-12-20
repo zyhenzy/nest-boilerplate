@@ -22,7 +22,9 @@ export class AccountService {
   ) {}
 
   async create(insertAccount: InsertAccountDto): Promise<Account | null> {
-    const condition = this.conditionService.findOne(insertAccount.conditionId);
+    const condition = await this.conditionService.findOne(
+      insertAccount.conditionId,
+    );
     const heroAll = await this.heroService.findAll();
     const weaponAll = await this.weaponService.findAll();
     const accountMeta = await fetchAccountDetail(insertAccount.game_ordersn);
