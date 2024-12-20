@@ -128,14 +128,7 @@ export class Account {
   ): Account {
     const account = new Account();
     const _meta = meta;
-    let equip_desc_obj;
-    try {
-      console.log(typeof _meta.equip_desc);
-      equip_desc_obj = JSON.parse(_meta.equip_desc);
-    } catch (error) {
-      console.error('Failed to parse equip_desc:', error);
-      equip_desc_obj = { card: [], gear: [] }; // 默认值为空对象或根据需要处理
-    }
+    const equip_desc_obj = JSON.parse(_meta.equip_desc);
     account.id = _meta.game_ordersn;
     account.meta = _meta;
     account.price = _meta.price;

@@ -2,7 +2,8 @@ import { Controller, Post, Body, Get, Param } from '@nestjs/common';
 import { AccountService } from './account.service';
 import { Account } from './entity/account.entity';
 import { ApiOperation } from '@nestjs/swagger';
-import { UpdatePriceDto } from './dto/create-account.dto';
+import { InsertAccountDto } from './dto/insert-account.dto';
+import { UpdatePriceDto } from './dto/update-account.dto';
 
 @Controller('account')
 export class AccountController {
@@ -13,8 +14,8 @@ export class AccountController {
     description: 'Create a new account',
   })
   @Post()
-  async create(@Body() account: Account): Promise<Account> {
-    return this.accountService.create(account);
+  async create(@Body() insertAccount: InsertAccountDto): Promise<Account> {
+    return this.accountService.create(insertAccount);
   }
 
   @ApiOperation({

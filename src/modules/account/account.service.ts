@@ -5,16 +5,32 @@ import { Account } from './entity/account.entity';
 import { Condition } from '../condition/entity/condition.entity';
 import { Hero } from '../hero/entity/hero.entity';
 import { Weapon } from '../weapon/entity/weapon.entity';
+import { ConditionService } from '../condition/condition.service';
+import { fetchAccountDetail } from '../condition/util';
+import { HeroService } from '../hero/hero.service';
+import { WeaponService } from '../weapon/weapon.service';
+import { InsertAccountDto } from './dto/insert-account.dto';
 
 @Injectable()
 export class AccountService {
   constructor(
     @InjectRepository(Account)
     private readonly accountRepository: Repository<Account>,
+    private readonly conditionService: ConditionService,
+    private readonly heroService: HeroService,
+    private readonly weaponService: WeaponService,
   ) {}
 
-  async create(account: Account): Promise<Account> {
-    return this.accountRepository.save(account);
+  async create(insertAccount: InsertAccountDto): Promise<Account | null> {
+    const condition = this.conditionService.findOne(insertAccount.conditionId);
+    const heroAll = await this.heroService.findAll();
+    const weaponAll = await this.weaponService.findAll();
+    const accountMeta = await fetchAccountDetail(insertAccount.game_ordersn);
+    if (condition) {
+      return this.insertAccount(accountMeta, condition, heroAll, weaponAll);
+    } else {
+      throw new Error('Condition not found'); // 如果 condition 为空，抛出错误
+    }
   }
 
   /**

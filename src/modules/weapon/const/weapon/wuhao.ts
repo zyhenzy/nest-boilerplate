@@ -1,4 +1,3 @@
-
 export const wuhao = [
   {
     gear_id: 1066,
