@@ -26,6 +26,7 @@
     "@nestjs/swagger": "^8.0.7",
     "@nestjs/typeorm": "^10.0.2",
     "axios": "^1.7.9",
+    "class-validator": "^0.14.1",
     "fs-extra": "^11.2.0",
     "lodash": "^4.17.21",
     "mysql2": "^3.11.5",
