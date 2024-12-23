@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Inject, forwardRef } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Account } from './entity/account.entity';
@@ -16,6 +16,7 @@ export class AccountService {
   constructor(
     @InjectRepository(Account)
     private readonly accountRepository: Repository<Account>,
+    @Inject(forwardRef(() => ConditionService))
     private readonly conditionService: ConditionService,
     private readonly heroService: HeroService,
     private readonly weaponService: WeaponService,

@@ -113,6 +113,17 @@ export class Account {
   })
   seasonScoreRate: number;
 
+  @ApiProperty({
+    type: Number,
+  })
+  @Column({
+    type: 'int',
+    name: 'status',
+    comment: '状态（2在售 6已售出）',
+    default: 0,
+  })
+  status: number;
+
   /**
    * 创建账号
    * @param meta 账号元数据
@@ -132,6 +143,7 @@ export class Account {
     account.id = _meta.game_ordersn;
     account.meta = _meta;
     account.price = _meta.price;
+    account.status = meta.status;
     account.heroList = delDuplication(
       equip_desc_obj.card.map((i: any) => new AccountHero(i)),
     );

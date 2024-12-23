@@ -14,7 +14,9 @@ export class AccountController {
     description: 'Create a new account',
   })
   @Post()
-  async create(@Body() insertAccount: InsertAccountDto): Promise<Account> {
+  async create(
+    @Body() insertAccount: InsertAccountDto,
+  ): Promise<Account | null> {
     return this.accountService.create(insertAccount);
   }
 

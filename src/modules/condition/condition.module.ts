@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module, forwardRef } from '@nestjs/common';
 import { ConditionController } from './condition.controller';
 import { ConditionService } from './condition.service';
 import { Condition } from './entity/condition.entity';
@@ -10,11 +10,12 @@ import { WeaponModule } from '../weapon/weapon.module';
 @Module({
   imports: [
     TypeOrmModule.forFeature([Condition]),
-    AccountModule,
+    forwardRef(() => AccountModule),
     HeroModule,
     WeaponModule,
   ],
   controllers: [ConditionController],
   providers: [ConditionService],
+  exports: [ConditionService],
 })
 export class ConditionModule {}
