@@ -247,6 +247,17 @@ export const xpCore = [
     season: 'XP',
     star: 5,
   },
+  {
+    country: '4',
+    hero_id: 100791,
+    hero_type: 1,
+    icon_hero_id: 100791,
+    name: '陆逊',
+    pinyin: 'luxun',
+    quality: 5,
+    season: 'XP',
+    star: 5,
+  },
 ];
 
 // XP半核心
@@ -392,6 +403,28 @@ export const jue = [
 // 有用卡池
 export const useful = [
   {
+    country: '3',
+    hero_id: 100793,
+    hero_type: 2,
+    icon_hero_id: 100793,
+    name: '陈到',
+    pinyin: 'chendao',
+    quality: 5,
+    season: 'N',
+    star: 5,
+  },
+  {
+    country: '5',
+    hero_id: 100790,
+    hero_type: 2,
+    icon_hero_id: 100790,
+    name: '袁术',
+    pinyin: 'yuanshu',
+    quality: 5,
+    season: 'N',
+    star: 5,
+  },
+  {
     country: '5',
     hero_id: 100677,
     hero_type: 3,
@@ -431,6 +464,17 @@ export const useful = [
     icon_hero_id: 100770,
     name: '许劭',
     pinyin: 'xushao',
+    quality: 5,
+    season: 'N',
+    star: 5,
+  },
+  {
+    country: '4',
+    hero_id: 100789,
+    hero_type: 1,
+    icon_hero_id: 100789,
+    name: '陆绩',
+    pinyin: 'luji',
     quality: 5,
     season: 'N',
     star: 5,

@@ -1,0 +1,8697 @@
+[
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "衣带密诏",
+    "research_num": 1,
+    "skill_id": 200001,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "乱政",
+    "research_num": 1,
+    "skill_id": 200002,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "胡笳离愁",
+    "research_num": 1,
+    "skill_id": 200004,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "闭月",
+    "research_num": 1,
+    "skill_id": 200005,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "四世三公",
+    "research_num": 1,
+    "skill_id": 200006,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "将倾之柱",
+    "research_num": 1,
+    "skill_id": 200007,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "逆谋",
+    "research_num": 1,
+    "skill_id": 200009,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "天下无双",
+    "research_num": 1,
+    "skill_id": 200010,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "算无遗策",
+    "research_num": 1,
+    "skill_id": 200011,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "血溅黄砂",
+    "research_num": 1,
+    "skill_id": 200013,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "洛水佳人",
+    "research_num": 1,
+    "skill_id": 200015,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "皇裔流离",
+    "research_num": 1,
+    "skill_id": 200016,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "诸葛锦囊",
+    "research_num": 1,
+    "skill_id": 200017,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "忍而不发",
+    "research_num": 1,
+    "skill_id": 200018,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "红颜铁骑",
+    "research_num": 1,
+    "skill_id": 200019,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "匠心不竭",
+    "research_num": 1,
+    "skill_id": 200020,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "银龙冲阵",
+    "research_num": 1,
+    "skill_id": 200021,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "长坂之吼",
+    "research_num": 1,
+    "skill_id": 200022,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "魏武之世",
+    "research_num": 1,
+    "skill_id": 200023,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "驱虎吞狼",
+    "research_num": 1,
+    "skill_id": 200024,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "魏武之泽",
+    "research_num": 1,
+    "skill_id": 200025,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "千里单骑",
+    "research_num": 1,
+    "skill_id": 200026,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "其疾如风",
+    "research_num": 1,
+    "skill_id": 200027,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "世仇",
+    "research_num": 1,
+    "skill_id": 200028,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "强势",
+    "research_num": 1,
+    "skill_id": 200029,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "九锡黄龙",
+    "research_num": 1,
+    "skill_id": 200030,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "玄武洰流",
+    "research_num": 1,
+    "skill_id": 200031,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "复誓业火",
+    "research_num": 1,
+    "skill_id": 200032,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "遗志",
+    "research_num": 1,
+    "skill_id": 200033,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "侵掠如火",
+    "research_num": 1,
+    "skill_id": 200034,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "枭姬",
+    "research_num": 1,
+    "skill_id": 200035,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "辅王抑寇",
+    "research_num": 1,
+    "skill_id": 200036,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "母仪浮梦",
+    "research_num": 1,
+    "skill_id": 200037,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "饮鸩之怨",
+    "research_num": 1,
+    "skill_id": 200038,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "猛火",
+    "research_num": 1,
+    "skill_id": 200039,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "节镇关东",
+    "research_num": 1,
+    "skill_id": 200040,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "威震北疆",
+    "research_num": 1,
+    "skill_id": 200041,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "献刀七星",
+    "research_num": 1,
+    "skill_id": 200042,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "藏玉在怀",
+    "research_num": 1,
+    "skill_id": 200043,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "义勇军",
+    "research_num": 1,
+    "skill_id": 200044,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "远见",
+    "research_num": 1,
+    "skill_id": 200045,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "修罗姬返",
+    "research_num": 1,
+    "skill_id": 200046,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "枭雄所愿",
+    "research_num": 1,
+    "skill_id": 200047,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "重斩",
+    "research_num": 1,
+    "skill_id": 200048,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "神速奔袭",
+    "research_num": 1,
+    "skill_id": 200049,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "太平异道",
+    "research_num": 1,
+    "skill_id": 200050,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "劫掠",
+    "research_num": 1,
+    "skill_id": 200051,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "坚盾阵",
+    "research_num": 1,
+    "skill_id": 200052,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "黄巾军威",
+    "research_num": 1,
+    "skill_id": 200053,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "温侯遗勇",
+    "research_num": 1,
+    "skill_id": 200054,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "固军备战",
+    "research_num": 1,
+    "skill_id": 200055,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "直言",
+    "research_num": 1,
+    "skill_id": 200056,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "骁勇",
+    "research_num": 1,
+    "skill_id": 200057,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "奋威",
+    "research_num": 1,
+    "skill_id": 200058,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "焚城劫焰",
+    "research_num": 1,
+    "skill_id": 200060,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "铁骑突击",
+    "research_num": 1,
+    "skill_id": 200061,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "昭烈神思",
+    "research_num": 1,
+    "skill_id": 200062,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "傲将奇兵",
+    "research_num": 1,
+    "skill_id": 200064,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "沙场破阵",
+    "research_num": 1,
+    "skill_id": 200065,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "锐矛贯体",
+    "research_num": 1,
+    "skill_id": 200066,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "索命连环",
+    "research_num": 1,
+    "skill_id": 200067,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "忠义蜀后",
+    "research_num": 1,
+    "skill_id": 200068,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "巾帼战阵",
+    "research_num": 1,
+    "skill_id": 200070,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "默守贤义",
+    "research_num": 1,
+    "skill_id": 200071,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "列营守险",
+    "research_num": 1,
+    "skill_id": 200072,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "六宫无怨",
+    "research_num": 1,
+    "skill_id": 200073,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "素衣伶姬",
+    "research_num": 1,
+    "skill_id": 200074,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "决绝",
+    "research_num": 1,
+    "skill_id": 200075,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "鬼谋",
+    "research_num": 1,
+    "skill_id": 200076,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "拔箭啖睛",
+    "research_num": 1,
+    "skill_id": 200077,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "猛虎啸",
+    "research_num": 1,
+    "skill_id": 200078,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "奋不顾身",
+    "research_num": 1,
+    "skill_id": 200079,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "破凰",
+    "research_num": 1,
+    "skill_id": 200080,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "以逸待劳",
+    "research_num": 1,
+    "skill_id": 200081,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "死战明志",
+    "research_num": 1,
+    "skill_id": 200082,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "八门金锁",
+    "research_num": 1,
+    "skill_id": 200083,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "战伤无畏",
+    "research_num": 1,
+    "skill_id": 200084,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "炬石",
+    "research_num": 1,
+    "skill_id": 200085,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "古锭之锋",
+    "research_num": 1,
+    "skill_id": 200086,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "小霸王",
+    "research_num": 1,
+    "skill_id": 200087,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "方阵突击",
+    "research_num": 1,
+    "skill_id": 200088,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "国太威仪",
+    "research_num": 1,
+    "skill_id": 200089,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "奇计迭出",
+    "research_num": 1,
+    "skill_id": 200090,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "幻花乱影",
+    "research_num": 1,
+    "skill_id": 200091,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "蝶舞红莲",
+    "research_num": 1,
+    "skill_id": 200092,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "众望南疆",
+    "research_num": 1,
+    "skill_id": 200093,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "将门虎女",
+    "research_num": 1,
+    "skill_id": 200094,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "星耀箭雨",
+    "research_num": 1,
+    "skill_id": 200095,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "北地枪王",
+    "research_num": 1,
+    "skill_id": 200096,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "突进",
+    "research_num": 3,
+    "skill_id": 200097,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "凿穿",
+    "research_num": 2,
+    "skill_id": 200098,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "车悬",
+    "research_num": 2,
+    "skill_id": 200099,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 1,
+    "name": "飞虹",
+    "research_num": 3,
+    "skill_id": 200100,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 1,
+    "name": "齐射",
+    "research_num": 2,
+    "skill_id": 200101,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 1,
+    "name": "箭岚",
+    "research_num": 2,
+    "skill_id": 200102,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "强攻",
+    "research_num": 3,
+    "skill_id": 200103,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "乱击",
+    "research_num": 2,
+    "skill_id": 200104,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 1,
+    "name": "枪阵",
+    "research_num": 2,
+    "skill_id": 200105,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "斩铁",
+    "research_num": 2,
+    "skill_id": 200106,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "破魂",
+    "research_num": 2,
+    "skill_id": 200107,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "重伤",
+    "research_num": 2,
+    "skill_id": 200108,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "破甲",
+    "research_num": 2,
+    "skill_id": 200109,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "浴血",
+    "research_num": 3,
+    "skill_id": 200110,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "冲锋",
+    "research_num": 2,
+    "skill_id": 200111,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "死士突击",
+    "research_num": 2,
+    "skill_id": 200112,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "窃兵",
+    "research_num": 2,
+    "skill_id": 200113,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "伏兵",
+    "research_num": 3,
+    "skill_id": 200114,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "夹攻",
+    "research_num": 2,
+    "skill_id": 200115,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "声东击西",
+    "research_num": 1,
+    "skill_id": 200116,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 1,
+    "name": "火箭",
+    "research_num": 3,
+    "skill_id": 200117,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "火辎",
+    "research_num": 2,
+    "skill_id": 200118,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "焰焚箕轸",
+    "research_num": 1,
+    "skill_id": 200119,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "竭泽",
+    "research_num": 3,
+    "skill_id": 200120,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "溃堤",
+    "research_num": 2,
+    "skill_id": 200121,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "水淹七军",
+    "research_num": 1,
+    "skill_id": 200122,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "落石",
+    "research_num": 3,
+    "skill_id": 200123,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "绝道",
+    "research_num": 2,
+    "skill_id": 200124,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "危崖困军",
+    "research_num": 1,
+    "skill_id": 200125,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "落雷",
+    "research_num": 2,
+    "skill_id": 200126,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "迷阵",
+    "research_num": 2,
+    "skill_id": 200127,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "狼烟",
+    "research_num": 3,
+    "skill_id": 200128,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "毒泉",
+    "research_num": 2,
+    "skill_id": 200129,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "楚歌四起",
+    "research_num": 1,
+    "skill_id": 200130,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "驱逐",
+    "research_num": 2,
+    "skill_id": 200131,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "攻心",
+    "research_num": 2,
+    "skill_id": 200132,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "收拢",
+    "research_num": 3,
+    "skill_id": 200133,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "休整",
+    "research_num": 2,
+    "skill_id": 200134,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "养精蓄锐",
+    "research_num": 1,
+    "skill_id": 200135,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "青囊秘要",
+    "research_num": 2,
+    "skill_id": 200136,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "急救",
+    "research_num": 3,
+    "skill_id": 200137,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "包扎",
+    "research_num": 2,
+    "skill_id": 200138,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "增援",
+    "research_num": 1,
+    "skill_id": 200139,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "初级鼓舞",
+    "research_num": 5,
+    "skill_id": 200140,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "中级鼓舞",
+    "research_num": 3,
+    "skill_id": 200141,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "高级鼓舞",
+    "research_num": 2,
+    "skill_id": 200142,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "鼓舞之策",
+    "research_num": 3,
+    "skill_id": 200143,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "鼓舞秘策",
+    "research_num": 2,
+    "skill_id": 200144,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "初级离间",
+    "research_num": 5,
+    "skill_id": 200145,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "中级离间",
+    "research_num": 3,
+    "skill_id": 200146,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "高级离间",
+    "research_num": 2,
+    "skill_id": 200147,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "离间之策",
+    "research_num": 3,
+    "skill_id": 200148,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "离间秘策",
+    "research_num": 2,
+    "skill_id": 200149,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "初级防御",
+    "research_num": 5,
+    "skill_id": 200150,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "中级防御",
+    "research_num": 3,
+    "skill_id": 200151,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "高级防御",
+    "research_num": 2,
+    "skill_id": 200152,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "防御之策",
+    "research_num": 3,
+    "skill_id": 200153,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "防御秘策",
+    "research_num": 2,
+    "skill_id": 200154,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "初级扰乱",
+    "research_num": 5,
+    "skill_id": 200155,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "中级扰乱",
+    "research_num": 3,
+    "skill_id": 200156,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "高级扰乱",
+    "research_num": 2,
+    "skill_id": 200157,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "扰乱之策",
+    "research_num": 3,
+    "skill_id": 200158,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "扰乱秘策",
+    "research_num": 2,
+    "skill_id": 200159,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "初级谎报",
+    "research_num": 5,
+    "skill_id": 200160,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "中级谎报",
+    "research_num": 3,
+    "skill_id": 200161,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "高级谎报",
+    "research_num": 2,
+    "skill_id": 200162,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "谎报之策",
+    "research_num": 3,
+    "skill_id": 200163,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "谎报秘策",
+    "research_num": 2,
+    "skill_id": 200164,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "初级速战",
+    "research_num": 5,
+    "skill_id": 200165,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "中级速战",
+    "research_num": 3,
+    "skill_id": 200166,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "高级速战",
+    "research_num": 2,
+    "skill_id": 200167,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "速战之策",
+    "research_num": 3,
+    "skill_id": 200168,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "速战秘策",
+    "research_num": 2,
+    "skill_id": 200169,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "初级牵制",
+    "research_num": 5,
+    "skill_id": 200170,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "中级牵制",
+    "research_num": 3,
+    "skill_id": 200171,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "高级牵制",
+    "research_num": 2,
+    "skill_id": 200172,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "牵制之策",
+    "research_num": 3,
+    "skill_id": 200173,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "牵制秘策",
+    "research_num": 2,
+    "skill_id": 200174,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "攻击强化",
+    "research_num": 5,
+    "skill_id": 200175,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "防御强化",
+    "research_num": 5,
+    "skill_id": 200176,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "速度强化",
+    "research_num": 5,
+    "skill_id": 200177,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "坚守突击",
+    "research_num": 2,
+    "skill_id": 200178,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "疾风突击",
+    "research_num": 2,
+    "skill_id": 200179,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "速战坚守",
+    "research_num": 2,
+    "skill_id": 200180,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "运筹帷幄",
+    "research_num": 2,
+    "skill_id": 200181,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "文韬武略",
+    "research_num": 2,
+    "skill_id": 200182,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "成竹在胸",
+    "research_num": 2,
+    "skill_id": 200183,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "百战精兵",
+    "research_num": 2,
+    "skill_id": 200184,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "援军之策",
+    "research_num": 3,
+    "skill_id": 200185,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "援军秘策",
+    "research_num": 2,
+    "skill_id": 200186,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "冲车",
+    "research_num": 5,
+    "skill_id": 200187,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 1,
+    "name": "毁墙",
+    "research_num": 3,
+    "skill_id": 200188,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 1,
+    "name": "投石轰击",
+    "research_num": 2,
+    "skill_id": 200189,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "远攻强化",
+    "research_num": 2,
+    "skill_id": 200190,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "坚守",
+    "research_num": 2,
+    "skill_id": 200191,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "铁壁",
+    "research_num": 2,
+    "skill_id": 200192,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "固阵",
+    "research_num": 2,
+    "skill_id": 200193,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "避其锋芒",
+    "research_num": 1,
+    "skill_id": 200194,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "奋起",
+    "research_num": 2,
+    "skill_id": 200195,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "激昂",
+    "research_num": 2,
+    "skill_id": 200196,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "犒劳",
+    "research_num": 2,
+    "skill_id": 200197,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "大赏三军",
+    "research_num": 1,
+    "skill_id": 200198,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "威压",
+    "research_num": 2,
+    "skill_id": 200199,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "乱阵",
+    "research_num": 2,
+    "skill_id": 200200,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "无心恋战",
+    "research_num": 1,
+    "skill_id": 200201,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "假途",
+    "research_num": 2,
+    "skill_id": 200202,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "劫粮",
+    "research_num": 2,
+    "skill_id": 200203,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "神兵天降",
+    "research_num": 1,
+    "skill_id": 200204,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "洞察",
+    "research_num": 2,
+    "skill_id": 200205,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "追击",
+    "research_num": 3,
+    "skill_id": 200206,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "攻其要害",
+    "research_num": 2,
+    "skill_id": 200207,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "温酒斩将",
+    "research_num": 1,
+    "skill_id": 200208,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "远攻之策",
+    "research_num": 2,
+    "skill_id": 200209,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "远攻秘策",
+    "research_num": 1,
+    "skill_id": 200210,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "挑衅",
+    "research_num": 3,
+    "skill_id": 200211,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "诱敌",
+    "research_num": 2,
+    "skill_id": 200212,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "反计",
+    "research_num": 2,
+    "skill_id": 200213,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "规避",
+    "research_num": 2,
+    "skill_id": 200214,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "空城",
+    "research_num": 1,
+    "skill_id": 200215,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "冷静",
+    "research_num": 3,
+    "skill_id": 200216,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "安抚军心",
+    "research_num": 2,
+    "skill_id": 200217,
+    "skill_mark_type": [
+      3,
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "看破",
+    "research_num": 3,
+    "skill_id": 200218,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "了如指掌",
+    "research_num": 2,
+    "skill_id": 200219,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "反计之策",
+    "research_num": 1,
+    "skill_id": 200220,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "反击",
+    "research_num": 3,
+    "skill_id": 200221,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "反击之策",
+    "research_num": 2,
+    "skill_id": 200222,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "连战",
+    "research_num": 2,
+    "skill_id": 200223,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "穷追猛打",
+    "research_num": 2,
+    "skill_id": 200224,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "横扫",
+    "research_num": 3,
+    "skill_id": 200225,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "长兵方阵",
+    "research_num": 2,
+    "skill_id": 200226,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "佯攻",
+    "research_num": 2,
+    "skill_id": 200227,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "战必断金",
+    "research_num": 1,
+    "skill_id": 200228,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "奇袭",
+    "research_num": 3,
+    "skill_id": 200229,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "措手不及",
+    "research_num": 2,
+    "skill_id": 200230,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "先驱",
+    "research_num": 3,
+    "skill_id": 200231,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "长驱直入",
+    "research_num": 2,
+    "skill_id": 200232,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "先驱突击",
+    "research_num": 1,
+    "skill_id": 200233,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "陷阱",
+    "research_num": 2,
+    "skill_id": 200234,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "浑水摸鱼",
+    "research_num": 1,
+    "skill_id": 200235,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "疑兵",
+    "research_num": 2,
+    "skill_id": 200236,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "妖术",
+    "research_num": 1,
+    "skill_id": 200237,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "援护",
+    "research_num": 2,
+    "skill_id": 200238,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "移花接木",
+    "research_num": 1,
+    "skill_id": 200239,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "警戒",
+    "research_num": 1,
+    "skill_id": 200240,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "木材收益提升",
+    "research_num": 1,
+    "skill_id": 200600,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "钱收益提升",
+    "research_num": 1,
+    "skill_id": 200601,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "经验提升",
+    "research_num": 1,
+    "skill_id": 200602,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "白楼独舞",
+    "research_num": 1,
+    "skill_id": 200603,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "乱离中宫",
+    "research_num": 1,
+    "skill_id": 200604,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "飘零红颜",
+    "research_num": 1,
+    "skill_id": 200605,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "勇将继传",
+    "research_num": 1,
+    "skill_id": 200606,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "帝临回光",
+    "research_num": 1,
+    "skill_id": 200607,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "陷阵营",
+    "research_num": 1,
+    "skill_id": 200608,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "伪帝",
+    "research_num": 1,
+    "skill_id": 200609,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "逆反毒杀",
+    "research_num": 1,
+    "skill_id": 200610,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "老骥伏枥",
+    "research_num": 1,
+    "skill_id": 200611,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "未出战法2",
+    "research_num": 1,
+    "skill_id": 200612,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "强弓连射",
+    "research_num": 1,
+    "skill_id": 200613,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "重谋",
+    "research_num": 1,
+    "skill_id": 200614,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "苦肉计",
+    "research_num": 1,
+    "skill_id": 200616,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "王佐之才",
+    "research_num": 1,
+    "skill_id": 200617,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "高级远攻",
+    "research_num": 1,
+    "skill_id": 200618,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "强攻兵法",
+    "research_num": 1,
+    "skill_id": 200619,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "坚守兵法",
+    "research_num": 1,
+    "skill_id": 200620,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "速战兵法",
+    "research_num": 1,
+    "skill_id": 200621,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "不攻",
+    "research_num": 1,
+    "skill_id": 200622,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "锦马慑敌",
+    "research_num": 1,
+    "skill_id": 200623,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "轻侠妄为",
+    "research_num": 1,
+    "skill_id": 200624,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "竭忠",
+    "research_num": 1,
+    "skill_id": 200625,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "吴之副督",
+    "research_num": 1,
+    "skill_id": 200626,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "慎兵",
+    "research_num": 1,
+    "skill_id": 200627,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "斧钺之利",
+    "research_num": 1,
+    "skill_id": 200628,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "国士",
+    "research_num": 1,
+    "skill_id": 200629,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "拔剑护主",
+    "research_num": 1,
+    "skill_id": 200630,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "身佑废皇",
+    "research_num": 1,
+    "skill_id": 200631,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "回马",
+    "research_num": 2,
+    "skill_id": 200632,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "黄须虎子",
+    "research_num": 1,
+    "skill_id": 200633,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "十二奇策",
+    "research_num": 1,
+    "skill_id": 200634,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "奔袭",
+    "research_num": 2,
+    "skill_id": 200635,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "远攻奇略",
+    "research_num": 2,
+    "skill_id": 200636,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "悍将",
+    "research_num": 1,
+    "skill_id": 200637,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "突击",
+    "research_num": 3,
+    "skill_id": 200638,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "谋攻",
+    "research_num": 3,
+    "skill_id": 200639,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "以主制客",
+    "research_num": 1,
+    "skill_id": 200640,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "水泽伏击",
+    "research_num": 1,
+    "skill_id": 200641,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "借刀斩叛",
+    "research_num": 1,
+    "skill_id": 200642,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "深谋远虑",
+    "research_num": 1,
+    "skill_id": 200645,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "愈战愈勇",
+    "research_num": 1,
+    "skill_id": 200643,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "步步为营",
+    "research_num": 1,
+    "skill_id": 200644,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "疾风迅雷",
+    "research_num": 1,
+    "skill_id": 200646,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "一骑当千",
+    "research_num": 1,
+    "skill_id": 200647,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "白衣渡江",
+    "research_num": 1,
+    "skill_id": 200648,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "怯弱",
+    "research_num": 1,
+    "skill_id": 200649,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "存嗣流愿",
+    "research_num": 1,
+    "skill_id": 200650,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "妒后",
+    "research_num": 1,
+    "skill_id": 200651,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "双艳",
+    "research_num": 1,
+    "skill_id": 200652,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "南中平蛮",
+    "research_num": 1,
+    "skill_id": 200653,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "安途若素",
+    "research_num": 1,
+    "skill_id": 200654,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "虎步关右",
+    "research_num": 1,
+    "skill_id": 200655,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "经久善战",
+    "research_num": 1,
+    "skill_id": 200656,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "蜀中老将",
+    "research_num": 1,
+    "skill_id": 200657,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "钝兵挫锐",
+    "research_num": 1,
+    "skill_id": 200658,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "怯心夺志",
+    "research_num": 1,
+    "skill_id": 200659,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "殉战",
+    "research_num": 1,
+    "skill_id": 200660,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "誓卫",
+    "research_num": 1,
+    "skill_id": 200661,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "困守",
+    "research_num": 1,
+    "skill_id": 200662,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 1,
+    "name": "云梯",
+    "research_num": 2,
+    "skill_id": 200663,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "洞察之策",
+    "research_num": 1,
+    "skill_id": 200664,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "游击",
+    "research_num": 3,
+    "skill_id": 200666,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "褒赏",
+    "research_num": 1,
+    "skill_id": 200667,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "定计",
+    "research_num": 1,
+    "skill_id": 200668,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "戒备",
+    "research_num": 3,
+    "skill_id": 200669,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "谨言",
+    "research_num": 3,
+    "skill_id": 200670,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "设伏",
+    "research_num": 2,
+    "skill_id": 200671,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "雀伏",
+    "research_num": 2,
+    "skill_id": 200672,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "掎角之势",
+    "research_num": 1,
+    "skill_id": 200673,
+    "skill_mark_type": [
+      1,
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "一夫当关",
+    "research_num": 1,
+    "skill_id": 200674,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "雄兵破敌",
+    "research_num": 1,
+    "skill_id": 200676,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "险途暗渡",
+    "research_num": 1,
+    "skill_id": 200677,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "名士在野",
+    "research_num": 1,
+    "skill_id": 200678,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "尽忠迎驾",
+    "research_num": 1,
+    "skill_id": 200679,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "定军扬威",
+    "research_num": 1,
+    "skill_id": 200680,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "虎痴嗔怒",
+    "research_num": 1,
+    "skill_id": 200681,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "猜忌",
+    "research_num": 1,
+    "skill_id": 200682,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "伐谋",
+    "research_num": 1,
+    "skill_id": 200683,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "道行险阻",
+    "research_num": 1,
+    "skill_id": 200684,
+    "skill_mark_type": [
+      1,
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "黄天余音",
+    "research_num": 1,
+    "skill_id": 200685,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "符医术毒",
+    "research_num": 1,
+    "skill_id": 200686,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "始计",
+    "research_num": 1,
+    "skill_id": 200687,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "合流",
+    "research_num": 1,
+    "skill_id": 200688,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "不动如山",
+    "research_num": 1,
+    "skill_id": 200689,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 1,
+    "name": "闪击",
+    "research_num": 1,
+    "skill_id": 200690,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "白刃",
+    "research_num": 1,
+    "skill_id": 200691,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "奇佐鬼谋",
+    "research_num": 1,
+    "skill_id": 200692,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "密谋定蜀",
+    "research_num": 1,
+    "skill_id": 200693,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "火势风威",
+    "research_num": 1,
+    "skill_id": 200694,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "酒池肉林",
+    "research_num": 1,
+    "skill_id": 200014,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "辕门射戟",
+    "research_num": 1,
+    "skill_id": 200012,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 1,
+    "name": "万箭齐发",
+    "research_num": 1,
+    "skill_id": 200714,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "十面埋伏",
+    "research_num": 1,
+    "skill_id": 200715,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "拒盾",
+    "research_num": 2,
+    "skill_id": 200695,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "迫近",
+    "research_num": 2,
+    "skill_id": 200696,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "退避",
+    "research_num": 2,
+    "skill_id": 200697,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "截断",
+    "research_num": 2,
+    "skill_id": 200698,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "抢攻",
+    "research_num": 2,
+    "skill_id": 200665,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "神威将女",
+    "research_num": 1,
+    "skill_id": 200069,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "方天余烈",
+    "research_num": 1,
+    "skill_id": 200059,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "疾行速战",
+    "research_num": 1,
+    "skill_id": 200699,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "斩将搴旗",
+    "research_num": 1,
+    "skill_id": 200700,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "据凉通叛",
+    "research_num": 1,
+    "skill_id": 200701,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "先登死士",
+    "research_num": 1,
+    "skill_id": 200702,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "北疆白马",
+    "research_num": 1,
+    "skill_id": 200703,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 1,
+    "name": "方圆",
+    "research_num": 1,
+    "skill_id": 200716,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 1,
+    "name": "鹤翼",
+    "research_num": 1,
+    "skill_id": 200717,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "锋矢",
+    "research_num": 1,
+    "skill_id": 200718,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "银龙孤胆",
+    "research_num": 1,
+    "skill_id": 200704,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "定军绝战",
+    "research_num": 1,
+    "skill_id": 200705,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "方阵掩杀",
+    "research_num": 1,
+    "skill_id": 200706,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "中郎尽瘁",
+    "research_num": 1,
+    "skill_id": 200707,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "幽兰洛神",
+    "research_num": 1,
+    "skill_id": 200708,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "麦城追殇",
+    "research_num": 1,
+    "skill_id": 200709,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "恶来当道",
+    "research_num": 1,
+    "skill_id": 200710,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "阻挠",
+    "research_num": 1,
+    "skill_id": 200711,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "智取仁守",
+    "research_num": 1,
+    "skill_id": 200712,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "众叛亲离",
+    "research_num": 1,
+    "skill_id": 200713,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "上将潘凤",
+    "research_num": 1,
+    "skill_id": 200719,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "师君乐道",
+    "research_num": 1,
+    "skill_id": 200720,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "折戟强攻",
+    "research_num": 1,
+    "skill_id": 200721,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 1,
+    "name": "火积",
+    "research_num": 1,
+    "skill_id": 200722,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "南蛮强袭",
+    "research_num": 1,
+    "skill_id": 200723,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 1,
+    "name": "健卒不殆",
+    "research_num": 1,
+    "skill_id": 200724,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "愚勇",
+    "research_num": 1,
+    "skill_id": 200725,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "莽撞",
+    "research_num": 1,
+    "skill_id": 200726,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "伪刺",
+    "research_num": 1,
+    "skill_id": 200727,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "临危",
+    "research_num": 1,
+    "skill_id": 200728,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "顽抗",
+    "research_num": 2,
+    "skill_id": 200729,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "火兽冲锋",
+    "research_num": 1,
+    "skill_id": 200730,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "全军突击",
+    "research_num": 1,
+    "skill_id": 200731,
+    "skill_mark_type": [
+      1,
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "去疾",
+    "research_num": 1,
+    "skill_id": 200732,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "行樵偶遇",
+    "research_num": 1,
+    "skill_id": 200733,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "擅兵不寡",
+    "research_num": 1,
+    "skill_id": 200734,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "索敌",
+    "research_num": 1,
+    "skill_id": 200735,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "二夫之勇",
+    "research_num": 1,
+    "skill_id": 200736,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "明其虚实",
+    "research_num": 1,
+    "skill_id": 200737,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "中宫追玺",
+    "research_num": 1,
+    "skill_id": 200738,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "虎豹督军",
+    "research_num": 1,
+    "skill_id": 200739,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "望族不息",
+    "research_num": 1,
+    "skill_id": 200740,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "孤城死守",
+    "research_num": 1,
+    "skill_id": 200741,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "白毦亲兵",
+    "research_num": 1,
+    "skill_id": 200742,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "陈王求隐",
+    "research_num": 1,
+    "skill_id": 200743,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "奇士薄寿",
+    "research_num": 1,
+    "skill_id": 200744,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "固陵杀将",
+    "research_num": 1,
+    "skill_id": 200745,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "拒战言和",
+    "research_num": 1,
+    "skill_id": 200746,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "近攻",
+    "research_num": 1,
+    "skill_id": 200747,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 1,
+    "name": "远射",
+    "research_num": 1,
+    "skill_id": 200748,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "高垒",
+    "research_num": 1,
+    "skill_id": 200749,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "索贿",
+    "research_num": 1,
+    "skill_id": 200750,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "敛财",
+    "research_num": 1,
+    "skill_id": 200751,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "D",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "排挤",
+    "research_num": 1,
+    "skill_id": 200752,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "毁誉",
+    "research_num": 1,
+    "skill_id": 200753,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "胜兵求战",
+    "research_num": 1,
+    "skill_id": 200754,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "攻其不备",
+    "research_num": 1,
+    "skill_id": 200755,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "藤甲突击",
+    "research_num": 1,
+    "skill_id": 200756,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "重整旗鼓",
+    "research_num": 1,
+    "skill_id": 200757,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "连环",
+    "research_num": 1,
+    "skill_id": 200758,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "觑隙",
+    "research_num": 1,
+    "skill_id": 200759,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "花中秀",
+    "research_num": 1,
+    "skill_id": 200760,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "疑兵避战",
+    "research_num": 1,
+    "skill_id": 200761,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "计定山越",
+    "research_num": 1,
+    "skill_id": 200762,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "辅臣应势",
+    "research_num": 1,
+    "skill_id": 200763,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "落首箭",
+    "research_num": 1,
+    "skill_id": 200764,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "虎贲牙将",
+    "research_num": 1,
+    "skill_id": 200765,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "兵无常势",
+    "research_num": 1,
+    "skill_id": 200766,
+    "skill_mark_type": [
+      3,
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "谋定后动",
+    "research_num": 1,
+    "skill_id": 200767,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "传檄荆襄",
+    "research_num": 1,
+    "skill_id": 200768,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "樊渊泅囚",
+    "research_num": 1,
+    "skill_id": 200769,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "盲侯奋勇",
+    "research_num": 1,
+    "skill_id": 200770,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "霸王渡江",
+    "research_num": 1,
+    "skill_id": 200771,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "夔吼象踏",
+    "research_num": 1,
+    "skill_id": 200772,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "金匮要略",
+    "research_num": 1,
+    "skill_id": 200773,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "北狄互伐",
+    "research_num": 1,
+    "skill_id": 200774,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "明妃",
+    "research_num": 1,
+    "skill_id": 200775,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "覆舟不弃",
+    "research_num": 1,
+    "skill_id": 200776,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "预识",
+    "research_num": 1,
+    "skill_id": 200777,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "衡众",
+    "research_num": 1,
+    "skill_id": 200778,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "土垒督战",
+    "research_num": 1,
+    "skill_id": 200779,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "斫方善辞",
+    "research_num": 1,
+    "skill_id": 200780,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "衡轭",
+    "research_num": 1,
+    "skill_id": 200781,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "疏数",
+    "research_num": 1,
+    "skill_id": 200782,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 1,
+    "name": "鱼鳞",
+    "research_num": 1,
+    "skill_id": 200783,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "桃园结义",
+    "research_num": 1,
+    "skill_id": 200784,
+    "skill_mark_type": [
+      2,
+      3
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 1
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "破阵强袭",
+    "research_num": 1,
+    "skill_id": 200785,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "掠敌之利",
+    "research_num": 1,
+    "skill_id": 200786,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "分险",
+    "research_num": 1,
+    "skill_id": 200787,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "枭雄",
+    "research_num": 1,
+    "skill_id": 200788,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 1
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "凤仪亭",
+    "research_num": 1,
+    "skill_id": 200789,
+    "skill_mark_type": [
+      1,
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 1
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "青丘媚祸",
+    "research_num": 1,
+    "skill_id": 200790,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "明法御狄",
+    "research_num": 1,
+    "skill_id": 200804,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "迟智难酬",
+    "research_num": 1,
+    "skill_id": 200805,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "西乡武功",
+    "research_num": 1,
+    "skill_id": 200791,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "肆掠",
+    "research_num": 1,
+    "skill_id": 200792,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "持绢履险",
+    "research_num": 1,
+    "skill_id": 200793,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "人公将军",
+    "research_num": 1,
+    "skill_id": 200795,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "地公将军",
+    "research_num": 1,
+    "skill_id": 200796,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "长社怒焰",
+    "research_num": 1,
+    "skill_id": 200797,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "却羌破奴",
+    "research_num": 1,
+    "skill_id": 200798,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "钩吻归命",
+    "research_num": 1,
+    "skill_id": 200799,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "自误",
+    "research_num": 1,
+    "skill_id": 200802,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "困龙尤争",
+    "research_num": 1,
+    "skill_id": 200803,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "众谋不懈",
+    "research_num": 1,
+    "skill_id": 200800,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "利兵谋胜",
+    "research_num": 1,
+    "skill_id": 200801,
+    "skill_mark_type": [
+      2,
+      3
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "唇枪舌剑",
+    "research_num": 1,
+    "skill_id": 200806,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "千里疾行",
+    "research_num": 1,
+    "skill_id": 200807,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "前军冲锋",
+    "research_num": 1,
+    "skill_id": 200808,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "乱其军形",
+    "research_num": 1,
+    "skill_id": 200809,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "训练有素",
+    "research_num": 1,
+    "skill_id": 200810,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "领兵有方",
+    "research_num": 1,
+    "skill_id": 200811,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "兵贵神速",
+    "research_num": 1,
+    "skill_id": 200812,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "形兵之极",
+    "research_num": 1,
+    "skill_id": 200813,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "汜水关",
+    "research_num": 1,
+    "skill_id": 200814,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 1
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "奇正之势",
+    "research_num": 1,
+    "skill_id": 200815,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "磐阵善守",
+    "research_num": 1,
+    "skill_id": 200816,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "极火佐攻",
+    "research_num": 1,
+    "skill_id": 200817,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "反间",
+    "research_num": 1,
+    "skill_id": 200818,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "疾战",
+    "research_num": 1,
+    "skill_id": 200819,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "文启",
+    "research_num": 1,
+    "skill_id": 200820,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "励军",
+    "research_num": 1,
+    "skill_id": 200821,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "合众",
+    "research_num": 1,
+    "skill_id": 200822,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "武锋",
+    "research_num": 1,
+    "skill_id": 200823,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "西陵克晋",
+    "research_num": 1,
+    "skill_id": 200824,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "古之恶来",
+    "research_num": 1,
+    "skill_id": 200825,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "绝水遏敌",
+    "research_num": 1,
+    "skill_id": 200826,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "并进",
+    "research_num": 1,
+    "skill_id": 200827,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "难知如阴",
+    "research_num": 1,
+    "skill_id": 200828,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "兼弱攻昧",
+    "research_num": 1,
+    "skill_id": 200829,
+    "skill_mark_type": [
+      1,
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "奇袭兵法",
+    "research_num": 1,
+    "skill_id": 200830,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "六守兵法",
+    "research_num": 1,
+    "skill_id": 200831,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "诡谋兵法",
+    "research_num": 1,
+    "skill_id": 200832,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 1,
+    "name": "铁戟金戈",
+    "research_num": 1,
+    "skill_id": 200833,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "人中吕布",
+    "research_num": 1,
+    "skill_id": 200834,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 1
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "谋主",
+    "research_num": 1,
+    "skill_id": 200835,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "平壑拒吴",
+    "research_num": 1,
+    "skill_id": 200836,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "令明负榇",
+    "research_num": 1,
+    "skill_id": 200837,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "焚舟叩营",
+    "research_num": 1,
+    "skill_id": 200838,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "疾击其后",
+    "research_num": 1,
+    "skill_id": 200839,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "猎敌之锋",
+    "research_num": 1,
+    "skill_id": 200840,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "陷敌之谋",
+    "research_num": 1,
+    "skill_id": 200841,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "形兵列阵",
+    "research_num": 1,
+    "skill_id": 200842,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "疮痍累身",
+    "research_num": 1,
+    "skill_id": 200843,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "鼎足江东",
+    "research_num": 1,
+    "skill_id": 200844,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 1
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "冢虎",
+    "research_num": 1,
+    "skill_id": 200845,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "剑关叛立",
+    "research_num": 1,
+    "skill_id": 200846,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "河内世泽",
+    "research_num": 1,
+    "skill_id": 200847,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "未笄难言",
+    "research_num": 1,
+    "skill_id": 200848,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "兵行巧变",
+    "research_num": 1,
+    "skill_id": 200849,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "风声鹤唳",
+    "research_num": 1,
+    "skill_id": 200850,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "陷储立齐",
+    "research_num": 1,
+    "skill_id": 200851,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "俭仪蹈和",
+    "research_num": 1,
+    "skill_id": 200852,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "美人计",
+    "research_num": 1,
+    "skill_id": 200853,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "投殳驱前",
+    "research_num": 1,
+    "skill_id": 200854,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "六守精兵",
+    "research_num": 1,
+    "skill_id": 200855,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "形兵险战",
+    "research_num": 1,
+    "skill_id": 200856,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "计谕废立",
+    "research_num": 1,
+    "skill_id": 200857,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "铁马撼岳",
+    "research_num": 1,
+    "skill_id": 200858,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "焚粮避祸",
+    "research_num": 1,
+    "skill_id": 200859,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "威震江左",
+    "research_num": 1,
+    "skill_id": 200860,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "弃憾破合",
+    "research_num": 1,
+    "skill_id": 200861,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "单骑救主",
+    "research_num": 1,
+    "skill_id": 200862,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 1
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "击势",
+    "research_num": 1,
+    "skill_id": 200863,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "国士无双",
+    "research_num": 1,
+    "skill_id": 200864,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "奉令护蜀",
+    "research_num": 1,
+    "skill_id": 200865,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "惊雷破阵",
+    "research_num": 1,
+    "skill_id": 200870,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "革甲众行",
+    "research_num": 1,
+    "skill_id": 200871,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "速战迎击",
+    "research_num": 1,
+    "skill_id": 200872,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "断铁倾旗",
+    "research_num": 1,
+    "skill_id": 200877,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "铁骑冲锋",
+    "research_num": 1,
+    "skill_id": 200876,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "伺机而动",
+    "research_num": 1,
+    "skill_id": 200873,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "避实击虚",
+    "research_num": 1,
+    "skill_id": 200874,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "安营固军",
+    "research_num": 1,
+    "skill_id": 200875,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "乱矢蓄川",
+    "research_num": 1,
+    "skill_id": 200878,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "千里奔袭",
+    "research_num": 1,
+    "skill_id": 200879,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "僭越",
+    "research_num": 1,
+    "skill_id": 200880,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "面和心阋",
+    "research_num": 1,
+    "skill_id": 200881,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "谋谟帷幄",
+    "research_num": 1,
+    "skill_id": 200882,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "鸟云山兵",
+    "research_num": 1,
+    "skill_id": 200883,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "巧音唤蝶",
+    "research_num": 1,
+    "skill_id": 200884,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "宣威再战",
+    "research_num": 1,
+    "skill_id": 200885,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "三军之众",
+    "research_num": 1,
+    "skill_id": 200886,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "烽火覆周",
+    "research_num": 1,
+    "skill_id": 200887,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "当阳桥",
+    "research_num": 1,
+    "skill_id": 200888,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 1
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "愚守善言",
+    "research_num": 1,
+    "skill_id": 200889,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "肃清荆襄",
+    "research_num": 1,
+    "skill_id": 200890,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "熊兵火刃",
+    "research_num": 1,
+    "skill_id": 200891,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "粳稻丰积",
+    "research_num": 1,
+    "skill_id": 200892,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "掠敌数顾",
+    "research_num": 1,
+    "skill_id": 200893,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "国难难靖",
+    "research_num": 1,
+    "skill_id": 200894,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "骑卒猛战",
+    "research_num": 1,
+    "skill_id": 200895,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "鼎盛世家",
+    "research_num": 1,
+    "skill_id": 200896,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "京观垒冢",
+    "research_num": 1,
+    "skill_id": 200898,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "断首何怒",
+    "research_num": 1,
+    "skill_id": 200899,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "垒实迎击",
+    "research_num": 1,
+    "skill_id": 200900,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "群策群力",
+    "research_num": 1,
+    "skill_id": 200901,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "缚父临危",
+    "research_num": 1,
+    "skill_id": 200902,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "寇略四州",
+    "research_num": 1,
+    "skill_id": 200903,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "去缚犒军",
+    "research_num": 1,
+    "skill_id": 200904,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "叛羌急袭",
+    "research_num": 1,
+    "skill_id": 200905,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "羌帅衅敌",
+    "research_num": 1,
+    "skill_id": 200906,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "岁贡固疆",
+    "research_num": 1,
+    "skill_id": 200907,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "疫箭拦江",
+    "research_num": 1,
+    "skill_id": 200908,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "名震敌国",
+    "research_num": 1,
+    "skill_id": 200909,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "月偃蛮平",
+    "research_num": 1,
+    "skill_id": 200910,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "勇而无算",
+    "research_num": 1,
+    "skill_id": 200911,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "万夫之勇",
+    "research_num": 1,
+    "skill_id": 200912,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "叫阵",
+    "research_num": 1,
+    "skill_id": 200913,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "文伐",
+    "research_num": 1,
+    "skill_id": 200914,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "统军畏慎",
+    "research_num": 1,
+    "skill_id": 200915,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "治众刑咒",
+    "research_num": 1,
+    "skill_id": 200916,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "翕处还张",
+    "research_num": 1,
+    "skill_id": 200917,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "天覆",
+    "research_num": 1,
+    "skill_id": 200918,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "地载",
+    "research_num": 1,
+    "skill_id": 200919,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "风扬",
+    "research_num": 1,
+    "skill_id": 200920,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "云垂",
+    "research_num": 1,
+    "skill_id": 200921,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "龙飞",
+    "research_num": 1,
+    "skill_id": 200922,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "虎翼",
+    "research_num": 1,
+    "skill_id": 200923,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "鸟翔",
+    "research_num": 1,
+    "skill_id": 200924,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "蛇蟠",
+    "research_num": 1,
+    "skill_id": 200925,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "威震逍遥",
+    "research_num": 1,
+    "skill_id": 200926,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 1
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "将出关西",
+    "research_num": 1,
+    "skill_id": 200927,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "竭忠尽智",
+    "research_num": 1,
+    "skill_id": 200928,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 1,
+    "name": "飒沓如星",
+    "research_num": 1,
+    "skill_id": 200929,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "奇兵拒北",
+    "research_num": 1,
+    "skill_id": 200930,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "挟主行令",
+    "research_num": 1,
+    "skill_id": 200931,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 0,
+    "name": "坐山观虎",
+    "research_num": 1,
+    "skill_id": 200932,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "将门有将",
+    "research_num": 1,
+    "skill_id": 200933,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "言出必克",
+    "research_num": 1,
+    "skill_id": 200934,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "以直报怨",
+    "research_num": 1,
+    "skill_id": 200935,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "酩酊不休",
+    "research_num": 1,
+    "skill_id": 200936,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "全主诿异",
+    "research_num": 1,
+    "skill_id": 200937,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "三术奇谋",
+    "research_num": 1,
+    "skill_id": 200938,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "登锋陷阵",
+    "research_num": 1,
+    "skill_id": 200939,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "文德椒房",
+    "research_num": 1,
+    "skill_id": 200940,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "甚陷不惧",
+    "research_num": 1,
+    "skill_id": 200941,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "暴戾恣睢",
+    "research_num": 1,
+    "skill_id": 200942,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "赍粮藉寇",
+    "research_num": 1,
+    "skill_id": 200943,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "鸷击狼噬",
+    "research_num": 1,
+    "skill_id": 200944,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "犹疑",
+    "research_num": 1,
+    "skill_id": 200945,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "纵兵劫掠",
+    "research_num": 1,
+    "skill_id": 200946,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "威震河朔",
+    "research_num": 1,
+    "skill_id": 200947,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "势无虚动",
+    "research_num": 1,
+    "skill_id": 200949,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "怒浪伐敌",
+    "research_num": 1,
+    "skill_id": 200948,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "七步释嫌",
+    "research_num": 1,
+    "skill_id": 200950,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "虎步陷阵",
+    "research_num": 1,
+    "skill_id": 200951,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "抚民励德",
+    "research_num": 1,
+    "skill_id": 200952,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "筹策绝道",
+    "research_num": 1,
+    "skill_id": 200953,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "汉韵旷野",
+    "research_num": 1,
+    "skill_id": 200954,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "动如雷震",
+    "research_num": 1,
+    "skill_id": 200955,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "三军齐出",
+    "research_num": 1,
+    "skill_id": 200956,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "久战熟谋",
+    "research_num": 1,
+    "skill_id": 200959,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "鏖兵卫主",
+    "research_num": 1,
+    "skill_id": 200958,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "五兵之烈",
+    "research_num": 1,
+    "skill_id": 200957,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "奋疾先登",
+    "research_num": 1,
+    "skill_id": 200961,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "鸾凤和鸣",
+    "research_num": 1,
+    "skill_id": 200960,
+    "skill_mark_type": [
+      3,
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "赐剑长驱",
+    "research_num": 1,
+    "skill_id": 200962,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "绮阁飘香",
+    "research_num": 1,
+    "skill_id": 200963,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "合纵连横",
+    "research_num": 1,
+    "skill_id": 200964,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "持刀从武",
+    "research_num": 1,
+    "skill_id": 200965,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "尽言直谏",
+    "research_num": 1,
+    "skill_id": 200966,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "勠力同心",
+    "research_num": 1,
+    "skill_id": 200967,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "连环计",
+    "research_num": 1,
+    "skill_id": 200968,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "赈穷救急",
+    "research_num": 1,
+    "skill_id": 200969,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "勇追穷寇",
+    "research_num": 1,
+    "skill_id": 200970,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "名士在朝",
+    "research_num": 1,
+    "skill_id": 200971,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "三让徐州",
+    "research_num": 1,
+    "skill_id": 200972,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "游议定益",
+    "research_num": 1,
+    "skill_id": 200973,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "登坛相仪",
+    "research_num": 1,
+    "skill_id": 200974,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "忧勤王事",
+    "research_num": 1,
+    "skill_id": 200975,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "扬威",
+    "research_num": 2,
+    "skill_id": 200976,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "奇术折冲",
+    "research_num": 1,
+    "skill_id": 200977,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "破胆",
+    "research_num": 2,
+    "skill_id": 200978,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "及锋而试",
+    "research_num": 1,
+    "skill_id": 200979,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "乘胜追击",
+    "research_num": 1,
+    "skill_id": 200980,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "胜负先征",
+    "research_num": 1,
+    "skill_id": 200981,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "运筹决胜",
+    "research_num": 1,
+    "skill_id": 200983,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "怀德畏威",
+    "research_num": 1,
+    "skill_id": 200984,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "谋议宏图",
+    "research_num": 1,
+    "skill_id": 200985,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "盛气横凌",
+    "research_num": 1,
+    "skill_id": 200986,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "三军夺帅",
+    "research_num": 1,
+    "skill_id": 200987,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "明慧通透",
+    "research_num": 1,
+    "skill_id": 200988,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "持节镇西",
+    "research_num": 1,
+    "skill_id": 200989,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "激水之疾",
+    "research_num": 1,
+    "skill_id": 200992,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "共饮避世",
+    "research_num": 1,
+    "skill_id": 200994,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "蓄盈待竭",
+    "research_num": 1,
+    "skill_id": 200995,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "亡命一搏",
+    "research_num": 1,
+    "skill_id": 200996,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "广陵绝唱",
+    "research_num": 1,
+    "skill_id": 200997,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "幕天席地",
+    "research_num": 1,
+    "skill_id": 200998,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "青白分明",
+    "research_num": 1,
+    "skill_id": 200999,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "缮甲厉兵",
+    "research_num": 1,
+    "skill_id": 201000,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "推己及人",
+    "research_num": 1,
+    "skill_id": 201001,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "神解音律",
+    "research_num": 1,
+    "skill_id": 201002,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "卿卿我我",
+    "research_num": 1,
+    "skill_id": 201003,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "明德至亲",
+    "research_num": 1,
+    "skill_id": 201004,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "唯瞻父兄",
+    "research_num": 1,
+    "skill_id": 201005,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "同仇敌忾",
+    "research_num": 1,
+    "skill_id": 201006,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "辞后定朝",
+    "research_num": 1,
+    "skill_id": 201007,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "诱敌深入",
+    "research_num": 1,
+    "skill_id": 201008,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "望风而降",
+    "research_num": 1,
+    "skill_id": 200982,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "赏顺伐逆",
+    "research_num": 1,
+    "skill_id": 200990,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "潜谋远计",
+    "research_num": 1,
+    "skill_id": 200991,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "舍身卫主",
+    "research_num": 1,
+    "skill_id": 200993,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "悬权而动",
+    "research_num": 1,
+    "skill_id": 200241,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "举抑臧否",
+    "research_num": 1,
+    "skill_id": 200242,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "九变之利",
+    "research_num": 1,
+    "skill_id": 200243,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "正始之变",
+    "research_num": 1,
+    "skill_id": 200244,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 1
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "龙骧虎步",
+    "research_num": 1,
+    "skill_id": 200250,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "强军猛进",
+    "research_num": 1,
+    "skill_id": 200245,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "缓师徐持",
+    "research_num": 1,
+    "skill_id": 200246,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "计焚乌巢",
+    "research_num": 1,
+    "skill_id": 200247,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "计险远近",
+    "research_num": 1,
+    "skill_id": 200248,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "知己知彼",
+    "research_num": 1,
+    "skill_id": 200249,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "迎险御侮",
+    "research_num": 1,
+    "skill_id": 200063,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "B",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "烈火焚舟",
+    "research_num": 1,
+    "skill_id": 200251,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 4,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "百战无怯",
+    "research_num": 1,
+    "skill_id": 200252,
+    "skill_mark_type": [
+      4
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "兵者诡道",
+    "research_num": 1,
+    "skill_id": 200253,
+    "skill_mark_type": [
+      2,
+      3
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "衔命建功",
+    "research_num": 1,
+    "skill_id": 200254,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "黄天当立",
+    "research_num": 1,
+    "skill_id": 200008,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "金吾飞将",
+    "research_num": 1,
+    "skill_id": 200003,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "3,13,23,33,43,53,83,93,103,113,123,133,143,153,163,",
+    "is_display": 0,
+    "name": "伏波扬砂",
+    "research_num": 1,
+    "skill_id": 200255,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "持玺兴兵",
+    "research_num": 1,
+    "skill_id": 200256,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "雪奋短兵",
+    "research_num": 1,
+    "skill_id": 200258,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "乘间击隙",
+    "research_num": 1,
+    "skill_id": 200259,
+    "skill_mark_type": [
+      1
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "审时定计",
+    "research_num": 1,
+    "skill_id": 200257,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "怀橘遗亲",
+    "research_num": 1,
+    "skill_id": 200266,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "C",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "胜敌益强",
+    "research_num": 1,
+    "skill_id": 200261,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 1,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "僭号天子",
+    "research_num": 1,
+    "skill_id": 200262,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "火烧连营",
+    "research_num": 1,
+    "skill_id": 200263,
+    "skill_mark_type": [
+      2
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 1
+  },
+  {
+    "allow_type": "1,11,21,31,41,51,61,71,81,91,101,111,121,131,141,",
+    "is_display": 0,
+    "name": "疲兵沮意",
+    "research_num": 1,
+    "skill_id": 200264,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "雅虑适时",
+    "research_num": 1,
+    "skill_id": 200265,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 2,
+    "special": 0
+  },
+  {
+    "allow_type": "",
+    "is_display": 1,
+    "name": "敛众定气",
+    "research_num": 1,
+    "skill_id": 200267,
+    "skill_mark_type": [
+      3
+    ],
+    "skill_quality_level": "A",
+    "skill_type": 3,
+    "special": 0
+  },
+  {
+    "allow_type": "2,12,22,32,42,52,82,62,72,92,102,112,122,132,142,152,162,",
+    "is_display": 0,
+    "name": "忠克猛烈",
+    "research_num": 1,
+    "skill_id": 200268,
+    "skill_mark_type": [
+      0
+    ],
+    "skill_quality_level": "S",
+    "skill_type": 3,
+    "special": 0
+  }
+]
