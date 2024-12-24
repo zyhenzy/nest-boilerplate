@@ -13,8 +13,7 @@ import { sleep } from '../../../utils';
 
 const getCookies = () => {
   const data = fs.readFileSync(TOKEN_URL, 'utf8');
-  const cookie = data.toString();
-  return cookie;
+  return data.toString();
 };
 
 /**

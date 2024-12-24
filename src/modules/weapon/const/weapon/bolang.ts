@@ -153,25 +153,19 @@ export const bolang = [
     featureName: '艮止30',
     price: 4000,
   },
+  // fixme 惑言效果不明（博浪惑言是30701-30704，30705-30708也是惑言）
   {
     gear_id: 1048,
     name: '艮止',
-    featureId: 30706,
-    featureName: '惑言?',
+    featureId: 30703,
+    featureName: '惑言（粉）',
     price: 400,
   },
   {
     gear_id: 1048,
     name: '艮止',
-    featureId: 30707,
-    featureName: '惑言?',
-    price: 500,
-  },
-  {
-    gear_id: 1048,
-    name: '艮止',
-    featureId: 30708,
-    featureName: '惑言?',
-    price: 3000,
+    featureId: 30704,
+    featureName: '惑言（红）',
+    price: 4000,
   },
 ];
