@@ -64,6 +64,16 @@ export class Account {
   @Column({ type: 'simple-json', name: 'heroList', comment: '武将列表' })
   heroList: AccountHero[];
 
+  @ApiProperty({
+    type: [String],
+  })
+  @Column({
+    type: 'simple-array',
+    name: 'heroTag',
+    comment: '武将标签',
+  })
+  heroTag: string[];
+
   @ApiProperty({ type: [AccountWeapon] })
   @Column({ type: 'simple-json', name: 'weaponList', comment: '武器列表' })
   weaponList: AccountWeapon[];
@@ -164,13 +174,19 @@ export class Account {
   computeHeroScore(heroAll: Hero[]) {
     this.heroScore = 0;
     this.seasonScore = 0;
+    this.heroTag = [];
     this.heroList.forEach((accountHero) => {
       const findHero = heroAll.find((h) => h.id === accountHero.id);
       if (findHero) {
+        // 计算分数
         const num = findHero.score + findHero.score * accountHero.advanceNum;
         this.heroScore += num;
         if (findHero.season !== 'XP') {
           this.seasonScore += num;
+        }
+        // 添加标签
+        if (findHero.score >= 5 && accountHero.advanceNum >= 4) {
+          this.heroTag.push(`${accountHero.advanceNum}红${findHero.name}`);
         }
       }
     });
