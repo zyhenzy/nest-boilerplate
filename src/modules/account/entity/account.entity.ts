@@ -1,4 +1,12 @@
-import { Entity, PrimaryColumn, JoinTable, ManyToMany, Column } from 'typeorm';
+import {
+  Entity,
+  PrimaryColumn,
+  JoinTable,
+  ManyToMany,
+  Column,
+  CreateDateColumn,
+  UpdateDateColumn,
+} from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { Condition } from '../../condition/entity/condition.entity';
 import { AccountHero } from './accountHero';
@@ -6,6 +14,8 @@ import { delDuplication } from '../util';
 import { Weapon } from '../../weapon/entity/weapon.entity';
 import { Hero } from '../../hero/entity/hero.entity';
 import { AccountWeapon } from './accountWeapon';
+import { AccountSkill } from './accountSkill';
+import { eightSkillId, fiveSkillId, threeSkillId } from '../const/skill';
 
 @Entity()
 export class Account {
@@ -74,6 +84,20 @@ export class Account {
   })
   heroTag: string[];
 
+  @ApiProperty({ type: [AccountSkill] })
+  @Column({ type: 'simple-json', name: 'skillList', comment: '战法列表' })
+  skillList: AccountSkill[];
+
+  @ApiProperty({
+    type: [String],
+  })
+  @Column({
+    type: 'simple-array',
+    name: 'skillTag',
+    comment: '战法标签',
+  })
+  skillTag: string[];
+
   @ApiProperty({ type: [AccountWeapon] })
   @Column({ type: 'simple-json', name: 'weaponList', comment: '武器列表' })
   weaponList: AccountWeapon[];
@@ -89,6 +113,17 @@ export class Account {
   })
   @Column({ type: 'int', name: 'heroScore', comment: '武将分数', default: 0 })
   heroScore: number;
+
+  @ApiProperty({
+    type: Number,
+  })
+  @Column({
+    type: 'int',
+    name: 'skillScore',
+    comment: '战法分数',
+    default: 0,
+  })
+  skillScore: number;
 
   @ApiProperty({
     type: Number,
@@ -134,6 +169,27 @@ export class Account {
   })
   status: number;
 
+  @ApiProperty({ type: Boolean })
+  @Column({
+    type: 'boolean',
+    name: 'apprentice',
+    comment: '试师',
+    default: false,
+  })
+  apprentice: boolean;
+
+  @ApiProperty({
+    type: String,
+  })
+  @Column({ type: 'varchar', name: 'remark', comment: '备注', default: '' })
+  remark: string;
+
+  @CreateDateColumn({ type: 'timestamp' })
+  createdAt: Date;
+
+  @UpdateDateColumn({ type: 'timestamp' })
+  updatedAt: Date;
+
   /**
    * 创建账号
    * @param meta 账号元数据
@@ -157,11 +213,15 @@ export class Account {
     account.heroList = delDuplication(
       equip_desc_obj.card.map((i: any) => new AccountHero(i)),
     );
+    account.skillList = equip_desc_obj.skill.map(
+      (i: any) => new AccountSkill(i),
+    );
     account.weaponList = equip_desc_obj.gear.map(
       (i: any) => new AccountWeapon(i),
     );
     account.intermediaryPrice = intermediaryPrice || 0;
     account.computeHeroScore(heroAll);
+    account.computeSkillScore();
     account.computeWeaponPrice(weaponAll);
     account.computeScore();
     return account;
@@ -190,6 +250,28 @@ export class Account {
         }
       }
     });
+  }
+
+  /**
+   * 计算战法分数
+   * @private
+   */
+  private computeSkillScore() {
+    this.skillScore = 0;
+    this.skillTag = [];
+    this.skillList.forEach((skill) => {
+      let num = 0;
+      if (eightSkillId.includes(skill.id)) {
+        num = 10;
+        this.skillTag.push(skill.name);
+      } else if (fiveSkillId.includes(skill.id)) {
+        num = 5;
+      } else if (threeSkillId.includes(skill.id)) {
+        num = 3;
+      }
+      this.skillScore += num;
+    });
+    this.score += this.skillScore;
   }
 
   /**

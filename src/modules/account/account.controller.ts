@@ -3,7 +3,11 @@ import { AccountService } from './account.service';
 import { Account } from './entity/account.entity';
 import { ApiOperation } from '@nestjs/swagger';
 import { InsertAccountDto } from './dto/insert-account.dto';
-import { UpdatePriceDto } from './dto/update-account.dto';
+import {
+  UpdateApprenticeDto,
+  UpdatePriceDto,
+  UpdateRemarkDto,
+} from './dto/update-account.dto';
 
 @Controller('account')
 export class AccountController {
@@ -38,5 +42,29 @@ export class AccountController {
   @Post('/updatePrice')
   updatePrice(@Body() updatePrice: UpdatePriceDto) {
     return this.accountService.updatePrice(updatePrice.id, updatePrice.price);
+  }
+
+  @ApiOperation({
+    summary: '修改账号试师状态',
+    description: '修改账号试师状态',
+  })
+  @Post('/updateApprentice')
+  updateApprentice(@Body() updateApprentice: UpdateApprenticeDto) {
+    return this.accountService.updateApprentice(
+      updateApprentice.id,
+      updateApprentice.apprentice,
+    );
+  }
+
+  @ApiOperation({
+    summary: '修改账号备注',
+    description: '修改账号备注',
+  })
+  @Post('/updateRemark')
+  updateRemark(@Body() updateRemark: UpdateRemarkDto) {
+    return this.accountService.updateRemark(
+      updateRemark.id,
+      updateRemark.remark,
+    );
   }
 }

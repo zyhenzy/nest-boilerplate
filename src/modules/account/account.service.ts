@@ -36,32 +36,6 @@ export class AccountService {
     }
   }
 
-  /**
-   * 根据账号元数据，插入账号
-   * @param accountMeta
-   * @param condition
-   * @param heroAll
-   * @param weaponAll
-   */
-  async insertAccount(
-    accountMeta: any,
-    condition: Condition,
-    heroAll: Hero[],
-    weaponAll: Weapon[],
-  ): Promise<Account> {
-    const accountOld = await this.accountRepository.findOneBy({
-      id: accountMeta.game_ordersn,
-    });
-    const account = Account.create(
-      accountMeta,
-      heroAll,
-      weaponAll,
-      accountOld?.intermediaryPrice || 0,
-    );
-    account.conditions = [condition];
-    return this.accountRepository.save(account);
-  }
-
   async findByCondition(conditionId: string): Promise<Account[]> {
     return await this.accountRepository
       .createQueryBuilder('account')
@@ -87,5 +61,57 @@ export class AccountService {
       account.updatePrice(price * 100);
       return await this.accountRepository.save(account);
     }
+  }
+
+  async updateApprentice(id: string, apprentice: boolean): Promise<Account> {
+    const account = await this.accountRepository.findOneBy({ id });
+    if (account) {
+      account.apprentice = apprentice;
+      return await this.accountRepository.save(account);
+    } else {
+      throw new Error('Account not found');
+    }
+  }
+
+  /**
+   * 修改账号备注
+   * @param id
+   * @param remark
+   */
+  async updateRemark(id: string, remark: string): Promise<Account | null> {
+    const account = await this.accountRepository.findOneBy({ id });
+    if (account) {
+      account.remark = remark;
+      return await this.accountRepository.save(account);
+    } else {
+      throw new Error('Account not found');
+    }
+  }
+
+  /**
+   * 根据账号元数据，插入账号
+   * @param accountMeta
+   * @param condition
+   * @param heroAll
+   * @param weaponAll
+   */
+  async insertAccount(
+    accountMeta: any,
+    condition: Condition,
+    heroAll: Hero[],
+    weaponAll: Weapon[],
+  ): Promise<Account> {
+    const account = Account.create(accountMeta, heroAll, weaponAll);
+    const existingAccount = await this.accountRepository.findOne({
+      where: { id: account.id },
+      relations: ['conditions'],
+    });
+    if (existingAccount) {
+      account.conditions = [...existingAccount.conditions, condition];
+      account.intermediaryPrice = existingAccount?.intermediaryPrice || 0;
+    } else {
+      account.conditions = [condition];
+    }
+    return this.accountRepository.save(account);
   }
 }

@@ -11,3 +11,26 @@ export class UpdatePriceDto {
   })
   price: number;
 }
+
+export class UpdateRemarkDto {
+  @ApiProperty({
+    type: String,
+  })
+  id: string;
+
+  @ApiProperty({
+    type: String,
+  })
+  remark: string;
+}
+
+export class UpdateApprenticeDto {
+  @ApiProperty({
+    type: String,
+  })
+  id: string;
+  @ApiProperty({
+    type: Boolean,
+  })
+  apprentice: boolean;
+}
