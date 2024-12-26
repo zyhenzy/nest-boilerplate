@@ -109,6 +109,7 @@ export class AccountService {
     if (existingAccount) {
       account.conditions = [...existingAccount.conditions, condition];
       account.intermediaryPrice = existingAccount?.intermediaryPrice || 0;
+      account.analyse(heroAll, weaponAll);
     } else {
       account.conditions = [condition];
     }

@@ -195,14 +195,8 @@ export class Account {
    * @param meta 账号元数据
    * @param heroAll 所有英雄，为了计算分数
    * @param weaponAll 所有武器，为了获取武器价格
-   * @param intermediaryPrice
    */
-  static create(
-    meta: any,
-    heroAll: Hero[],
-    weaponAll: Weapon[],
-    intermediaryPrice?: number,
-  ): Account {
+  static create(meta: any, heroAll: Hero[], weaponAll: Weapon[]): Account {
     const account = new Account();
     const _meta = meta;
     const equip_desc_obj = JSON.parse(_meta.equip_desc);
@@ -219,12 +213,15 @@ export class Account {
     account.weaponList = equip_desc_obj.gear.map(
       (i: any) => new AccountWeapon(i),
     );
-    account.intermediaryPrice = intermediaryPrice || 0;
-    account.computeHeroScore(heroAll);
-    account.computeSkillScore();
-    account.computeWeaponPrice(weaponAll);
-    account.computeScore();
+    account.analyse(heroAll, weaponAll);
     return account;
+  }
+
+  analyse(heroAll: Hero[], weaponAll: Weapon[]) {
+    this.computeHeroScore(heroAll);
+    this.computeSkillScore();
+    this.computeWeaponPrice(weaponAll);
+    this.computeScore();
   }
 
   /**
