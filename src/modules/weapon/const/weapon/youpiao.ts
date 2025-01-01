@@ -74,7 +74,7 @@ export const youpiao = [
     name: '游飘',
     featureId: 50410,
     featureName: '驱火28',
-    price: 3000,
+    price: 1000,
   },
   {
     gear_id: 1051,
@@ -102,7 +102,7 @@ export const youpiao = [
     name: '游飘',
     featureId: 50510,
     featureName: '炫惑28',
-    price: 2000,
+    price: 1000,
   },
   {
     gear_id: 1051,
@@ -144,14 +144,14 @@ export const youpiao = [
     name: '游飘',
     featureId: 50608,
     featureName: '筹算12',
-    price: 4000,
+    price: 3000,
   },
   {
     gear_id: 1051,
     name: '游飘',
     featureId: 50609,
     featureName: '筹算13',
-    price: 5000,
+    price: 4000,
   },
   {
     gear_id: 1051,

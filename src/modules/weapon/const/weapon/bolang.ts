@@ -32,7 +32,7 @@ export const bolang = [
     name: '博浪',
     featureId: 30408,
     featureName: '仁心24',
-    price: 2000,
+    price: 1800,
   },
   {
     gear_id: 1048,
@@ -88,7 +88,7 @@ export const bolang = [
     name: '博浪',
     featureId: 30205,
     featureName: '机敏7',
-    price: 2000,
+    price: 1600,
   },
   {
     gear_id: 1048,

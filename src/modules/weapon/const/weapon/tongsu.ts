@@ -60,7 +60,7 @@ export const tongsu = [
     name: '彤素',
     featureId: 20408,
     featureName: '英勇12',
-    price: 3000,
+    price: 2700,
   },
   {
     gear_id: 1003,
@@ -88,14 +88,14 @@ export const tongsu = [
     name: '彤素',
     featureId: 20108,
     featureName: '骁锐12',
-    price: 1500,
+    price: 1200,
   },
   {
     gear_id: 1003,
     name: '彤素',
     featureId: 20109,
     featureName: '骁锐13',
-    price: 2000,
+    price: 1500,
   },
   {
     gear_id: 1003,

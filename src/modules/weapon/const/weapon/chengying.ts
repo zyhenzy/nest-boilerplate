@@ -74,7 +74,7 @@ export const chengying = [
     name: '承影',
     featureId: 50410,
     featureName: '驱火28',
-    price: 700,
+    price: 1000,
   },
   {
     gear_id: 1045,
@@ -95,21 +95,21 @@ export const chengying = [
     name: '承影',
     featureId: 50509,
     featureName: '炫惑26',
-    price: 300,
+    price: 400,
   },
   {
     gear_id: 1045,
     name: '承影',
     featureId: 50510,
     featureName: '炫惑28',
-    price: 300,
+    price: 1000,
   },
   {
     gear_id: 1045,
     name: '承影',
     featureId: 50511,
     featureName: '炫惑30',
-    price: 300,
+    price: 3000,
   },
   {
     gear_id: 1045,

@@ -116,14 +116,14 @@ export const qulu = [
     name: '屈卢',
     featureId: 10405,
     featureName: '奔袭7',
-    price: 600,
+    price: 500,
   },
   {
     gear_id: 1012,
     name: '屈卢',
     featureId: 10406,
     featureName: '奔袭8',
-    price: 800,
+    price: 700,
   },
   {
     gear_id: 1012,

@@ -88,7 +88,7 @@ export const bieming = [
     name: '别鸣',
     featureId: 30205,
     featureName: '机敏7',
-    price: 2000,
+    price: 1800,
   },
   {
     gear_id: 1027,
