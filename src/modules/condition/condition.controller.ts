@@ -10,7 +10,7 @@ import {
 import { ConditionService } from './condition.service';
 import { Condition } from './entity/condition.entity';
 import { ApiOperation } from '@nestjs/swagger';
-import { CookieDto } from './dto/cookie.dto';
+import { ConditionRefreshDto, CookieDto } from './dto/cookie.dto';
 
 @Controller('condition')
 export class ConditionController {
@@ -80,5 +80,14 @@ export class ConditionController {
   @Post('/perform')
   perform(@Body() condition: Condition) {
     return this.conditionService.perform(condition);
+  }
+
+  @ApiOperation({
+    summary: '刷新检索条件',
+    description: '刷新检索条件',
+  })
+  @Post('/refresh')
+  refresh(@Body() conditionRefreshDto: ConditionRefreshDto) {
+    return this.conditionService.refresh(conditionRefreshDto.id);
   }
 }

@@ -4,3 +4,8 @@ export class CookieDto {
   @ApiProperty()
   cookie: string;
 }
+
+export class ConditionRefreshDto {
+  @ApiProperty()
+  id: string;
+}

@@ -115,4 +115,9 @@ export class AccountService {
     }
     return this.accountRepository.save(account);
   }
+
+  async deleteAccount(id: string): Promise<void> {
+    await this.accountRepository.delete(id);
+    // todo：删除关联表
+  }
 }

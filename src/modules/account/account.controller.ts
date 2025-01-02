@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Get, Param } from '@nestjs/common';
+import { Controller, Post, Body, Get, Delete, Param } from '@nestjs/common';
 import { AccountService } from './account.service';
 import { Account } from './entity/account.entity';
 import { ApiOperation } from '@nestjs/swagger';
@@ -66,5 +66,14 @@ export class AccountController {
       updateRemark.id,
       updateRemark.remark,
     );
+  }
+
+  @ApiOperation({
+    summary: '删除账号',
+    description: '删除账号及其关联的条件',
+  })
+  @Delete('/:id')
+  async deleteAccount(@Param('id') id: string): Promise<void> {
+    return this.accountService.deleteAccount(id);
   }
 }

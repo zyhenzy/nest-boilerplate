@@ -90,4 +90,34 @@ export class ConditionService {
     }
     console.log(`-----分析结束-----`);
   }
+
+  // 刷新条件，重新获取执行已有账号的信息
+  async refresh(conditionId: string) {
+    const condition = await this.conditionRepository
+      .createQueryBuilder('condition')
+      .leftJoinAndSelect('condition.accounts', 'account')
+      .where('condition.id = :conditionId', { conditionId })
+      .getOne();
+    if (!condition) {
+      return;
+    }
+    const accountIds = condition.accounts.map((account) => account.id);
+    const heroAll = await this.heroService.findAll();
+    const weaponAll = await this.weaponService.findAll();
+    console.log(`改条件下的账号共有 ${accountIds.length} 个，开始刷新`);
+    await sleep(5000);
+    for (let i = 0; i < accountIds.length; i++) {
+      console.log(`正在获取第 ${i + 1} 个账号详情`);
+      const accountId = accountIds[i];
+      const accountMeta = await fetchAccountDetail(accountId); // 2. 获取账号详情
+      await this.accountService.insertAccount(
+        accountMeta,
+        condition,
+        heroAll,
+        weaponAll,
+      ); // 3. 插入账号
+      await sleep(5000);
+    }
+    console.log(`-----分析结束-----`);
+  }
 }
