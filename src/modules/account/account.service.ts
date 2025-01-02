@@ -1,6 +1,6 @@
 import { Injectable, Inject, forwardRef } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { DeleteResult, Repository } from 'typeorm';
 import { Account } from './entity/account.entity';
 import { Condition } from '../condition/entity/condition.entity';
 import { Hero } from '../hero/entity/hero.entity';
@@ -116,8 +116,17 @@ export class AccountService {
     return this.accountRepository.save(account);
   }
 
-  async deleteAccount(id: string): Promise<void> {
-    await this.accountRepository.delete(id);
-    // todo：删除关联表
+  async deleteAccount(id: string): Promise<DeleteResult> {
+    const account = await this.accountRepository.findOne({
+      where: { id },
+      relations: ['conditions'],
+    });
+    if (account) {
+      account.conditions = [];
+      await this.accountRepository.save(account);
+      return await this.accountRepository.delete(id);
+    } else {
+      throw new Error('Account not found');
+    }
   }
 }

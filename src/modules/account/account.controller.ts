@@ -8,6 +8,7 @@ import {
   UpdatePriceDto,
   UpdateRemarkDto,
 } from './dto/update-account.dto';
+import { DeleteResult } from 'typeorm';
 
 @Controller('account')
 export class AccountController {
@@ -73,7 +74,7 @@ export class AccountController {
     description: '删除账号及其关联的条件',
   })
   @Delete('/:id')
-  async deleteAccount(@Param('id') id: string): Promise<void> {
+  async deleteAccount(@Param('id') id: string): Promise<DeleteResult> {
     return this.accountService.deleteAccount(id);
   }
 }
