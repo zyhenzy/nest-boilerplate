@@ -164,7 +164,7 @@ export class Account {
   @Column({
     type: 'int',
     name: 'status',
-    comment: '状态（2在售 6已售出）',
+    comment: '状态（0已取回 1未上架 2在售 6已售出）',
     default: 0,
   })
   status: number;
@@ -242,7 +242,7 @@ export class Account {
           this.seasonScore += num;
         }
         // 添加标签
-        if (findHero.score >= 5 && accountHero.advanceNum >= 4) {
+        if (num > 17) {
           this.heroTag.push(`${accountHero.advanceNum}红${findHero.name}`);
         }
       }
