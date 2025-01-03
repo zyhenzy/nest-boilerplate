@@ -242,7 +242,10 @@ export class Account {
           this.seasonScore += num;
         }
         // 添加标签
-        if (num > 17) {
+        if (
+          num > 25 ||
+          (accountHero.advanceNum === 5 && accountHero.score >= 3)
+        ) {
           this.heroTag.push(`${accountHero.advanceNum}红${findHero.name}`);
         }
       }
