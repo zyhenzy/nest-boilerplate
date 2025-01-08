@@ -79,6 +79,16 @@ export class Account {
   })
   @Column({
     type: 'simple-array',
+    name: 'tag',
+    comment: '标签',
+  })
+  tag: string[];
+
+  @ApiProperty({
+    type: [String],
+  })
+  @Column({
+    type: 'simple-array',
     name: 'heroTag',
     comment: '武将标签',
   })
@@ -222,6 +232,7 @@ export class Account {
     this.computeSkillScore();
     this.computeWeaponPrice(weaponAll);
     this.computeScore();
+    this.computeTag(heroAll);
   }
 
   /**
@@ -305,6 +316,21 @@ export class Account {
     }
     this.seasonScoreRate = (this.seasonScore / this.heroPrice) * 100000;
     this.scoreRate = (this.heroScore / this.heroPrice) * 100000;
+  }
+
+  // 生成tag
+  computeTag(heroAll: Hero[]) {
+    this.tag = [];
+    let sevenHeroNum = 0;
+    this.heroList.forEach((hero) => {
+      const findHero = heroAll.find((h) => h.id === hero.id);
+      if (findHero && findHero.score >= 7) {
+        sevenHeroNum++;
+      }
+    });
+    if (sevenHeroNum >= 9) {
+      this.tag.push('S赛季核心全');
+    }
   }
 
   /**

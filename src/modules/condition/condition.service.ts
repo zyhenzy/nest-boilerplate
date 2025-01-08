@@ -104,10 +104,10 @@ export class ConditionService {
     const accountIds = condition.accounts.map((account) => account.id);
     const heroAll = await this.heroService.findAll();
     const weaponAll = await this.weaponService.findAll();
-    console.log(`改条件下的账号共有 ${accountIds.length} 个，开始刷新`);
+    console.log(`该条件下的账号共有 ${accountIds.length} 个，开始刷新`);
     await sleep(5000);
     for (let i = 0; i < accountIds.length; i++) {
-      console.log(`正在获取第 ${i + 1} 个账号详情`);
+      console.log(`正在刷新第 ${i + 1} 个账号详情`);
       const accountId = accountIds[i];
       const accountMeta = await fetchAccountDetail(accountId); // 2. 获取账号详情
       await this.accountService.insertAccount(

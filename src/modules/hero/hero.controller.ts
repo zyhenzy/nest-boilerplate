@@ -9,15 +9,6 @@ export class HeroController {
   constructor(private readonly heroService: HeroService) {}
 
   @ApiOperation({
-    summary: '新建英雄',
-    description: '新建英雄',
-  })
-  @Post()
-  async create(@Body() hero: Hero): Promise<Hero> {
-    return await this.heroService.create(hero);
-  }
-
-  @ApiOperation({
     summary: '查询英雄',
     description: '查询英雄',
   })
