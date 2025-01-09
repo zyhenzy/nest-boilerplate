@@ -10,6 +10,8 @@ import { ConditionModule } from './modules/condition/condition.module';
 import { Condition } from './modules/condition/entity/condition.entity';
 import { Account } from './modules/account/entity/account.entity';
 import { AccountModule } from './modules/account/account.module';
+import { Icon } from './modules/icon/entity/icon.entity';
+import { IconModule } from './modules/icon/icon.module';
 
 @Module({
   imports: [
@@ -20,13 +22,14 @@ import { AccountModule } from './modules/account/account.module';
       username: 'root',
       password: '123456',
       database: 'stzb',
-      entities: [Hero, Weapon, Condition, Account],
+      entities: [Hero, Weapon, Condition, Account, Icon],
       synchronize: true,
     }),
     HeroModule,
     WeaponModule,
     ConditionModule,
     AccountModule,
+    IconModule,
   ],
   controllers: [AppController],
   providers: [AppService],

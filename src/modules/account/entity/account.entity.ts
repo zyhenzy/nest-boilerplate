@@ -210,6 +210,7 @@ export class Account {
     const account = new Account();
     const _meta = meta;
     const equip_desc_obj = JSON.parse(_meta.equip_desc);
+    const other_info_obj = JSON.parse(_meta.other_info); // todo:计算画像
     account.id = _meta.game_ordersn;
     account.meta = _meta;
     account.price = _meta.price;
