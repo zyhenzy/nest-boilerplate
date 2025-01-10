@@ -10,6 +10,7 @@ import { sleep } from '../../utils';
 import { AccountService } from '../account/account.service';
 import { HeroService } from '../hero/hero.service';
 import { WeaponService } from '../weapon/weapon.service';
+import { IconService } from '../icon/icon.service';
 
 @Injectable()
 export class ConditionService {
@@ -20,6 +21,7 @@ export class ConditionService {
     private readonly accountService: AccountService,
     private readonly heroService: HeroService,
     private readonly weaponService: WeaponService,
+    private readonly iconService: IconService,
   ) {}
 
   async create(condition: Condition): Promise<Condition> {
@@ -74,6 +76,7 @@ export class ConditionService {
     console.log(`-----开始分析-----`);
     const heroAll = await this.heroService.findAll();
     const weaponAll = await this.weaponService.findAll();
+    const iconAll = await this.iconService.findAll();
     const accountList = await fetchAccountList(condition); // 1. 获取账号列表
     await sleep(5000);
     for (let i = 0; i < accountList.length; i++) {
@@ -85,6 +88,7 @@ export class ConditionService {
         condition,
         heroAll,
         weaponAll,
+        iconAll,
       ); // 3. 插入账号
       await sleep(5000);
     }
@@ -104,6 +108,7 @@ export class ConditionService {
     const accountIds = condition.accounts.map((account) => account.id);
     const heroAll = await this.heroService.findAll();
     const weaponAll = await this.weaponService.findAll();
+    const iconAll = await this.iconService.findAll();
     console.log(`该条件下的账号共有 ${accountIds.length} 个，开始刷新`);
     await sleep(5000);
     for (let i = 0; i < accountIds.length; i++) {
@@ -115,6 +120,7 @@ export class ConditionService {
         condition,
         heroAll,
         weaponAll,
+        iconAll,
       ); // 3. 插入账号
       await sleep(5000);
     }

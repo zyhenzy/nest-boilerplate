@@ -5,10 +5,12 @@ import { Account } from './entity/account.entity';
 import { Condition } from '../condition/entity/condition.entity';
 import { Hero } from '../hero/entity/hero.entity';
 import { Weapon } from '../weapon/entity/weapon.entity';
+import { Icon } from '../icon/entity/icon.entity';
 import { ConditionService } from '../condition/condition.service';
 import { fetchAccountDetail } from '../condition/util';
 import { HeroService } from '../hero/hero.service';
 import { WeaponService } from '../weapon/weapon.service';
+import { IconService } from '../icon/icon.service';
 import { InsertAccountDto } from './dto/insert-account.dto';
 
 @Injectable()
@@ -20,6 +22,7 @@ export class AccountService {
     private readonly conditionService: ConditionService,
     private readonly heroService: HeroService,
     private readonly weaponService: WeaponService,
+    private readonly iconService: IconService,
   ) {}
 
   async create(insertAccount: InsertAccountDto): Promise<Account | null> {
@@ -28,9 +31,16 @@ export class AccountService {
     );
     const heroAll = await this.heroService.findAll();
     const weaponAll = await this.weaponService.findAll();
+    const iconAll = await this.iconService.findAll();
     const accountMeta = await fetchAccountDetail(insertAccount.game_ordersn);
     if (condition) {
-      return this.insertAccount(accountMeta, condition, heroAll, weaponAll);
+      return this.insertAccount(
+        accountMeta,
+        condition,
+        heroAll,
+        weaponAll,
+        iconAll,
+      );
     } else {
       throw new Error('Condition not found'); // 如果 condition 为空，抛出错误
     }
@@ -94,14 +104,16 @@ export class AccountService {
    * @param condition
    * @param heroAll
    * @param weaponAll
+   * @param iconAll
    */
   async insertAccount(
     accountMeta: any,
     condition: Condition,
     heroAll: Hero[],
     weaponAll: Weapon[],
+    iconAll: Icon[],
   ): Promise<Account> {
-    const account = Account.create(accountMeta, heroAll, weaponAll);
+    const account = Account.create(accountMeta, heroAll, weaponAll, iconAll);
     const existingAccount = await this.accountRepository.findOne({
       where: { id: account.id },
       relations: ['conditions'],
@@ -109,7 +121,7 @@ export class AccountService {
     if (existingAccount) {
       account.conditions = [...existingAccount.conditions, condition];
       account.intermediaryPrice = existingAccount?.intermediaryPrice || 0;
-      account.analyse(heroAll, weaponAll);
+      account.analyse(heroAll, weaponAll, iconAll);
     } else {
       account.conditions = [condition];
     }

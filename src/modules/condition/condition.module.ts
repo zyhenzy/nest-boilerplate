@@ -6,6 +6,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { HeroModule } from '../hero/hero.module';
 import { AccountModule } from '../account/account.module';
 import { WeaponModule } from '../weapon/weapon.module';
+import { IconModule } from '../icon/icon.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { WeaponModule } from '../weapon/weapon.module';
     forwardRef(() => AccountModule),
     HeroModule,
     WeaponModule,
+    IconModule,
   ],
   controllers: [ConditionController],
   providers: [ConditionService],

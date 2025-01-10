@@ -1,11 +1,12 @@
 import {
-  Entity,
-  PrimaryColumn,
-  JoinTable,
-  ManyToMany,
   Column,
   CreateDateColumn,
+  Entity,
+  JoinTable,
+  ManyToMany,
+  PrimaryColumn,
   UpdateDateColumn,
+  ValueTransformer,
 } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { Condition } from '../../condition/entity/condition.entity';
@@ -16,6 +17,19 @@ import { Hero } from '../../hero/entity/hero.entity';
 import { AccountWeapon } from './accountWeapon';
 import { AccountSkill } from './accountSkill';
 import { eightSkillId, fiveSkillId, threeSkillId } from '../const/skill';
+import { Icon } from '../../icon/entity/icon.entity';
+import { AccountIcon } from './accountIcon';
+
+const jsonTransformer: ValueTransformer = {
+  to: (value: any) => (value ? value : '[]'),
+  from: (value: any) => {
+    try {
+      return JSON.parse(value);
+    } catch {
+      return '[]';
+    }
+  },
+};
 
 @Entity()
 export class Account {
@@ -112,6 +126,16 @@ export class Account {
   @Column({ type: 'simple-json', name: 'weaponList', comment: '武器列表' })
   weaponList: AccountWeapon[];
 
+  @ApiProperty({ type: [AccountIcon] })
+  @Column({
+    type: 'simple-json',
+    name: 'iconList',
+    comment: '画像列表',
+    nullable: true,
+    transformer: jsonTransformer,
+  })
+  iconList: AccountIcon[];
+
   @ApiProperty({
     type: Number,
   })
@@ -205,12 +229,17 @@ export class Account {
    * @param meta 账号元数据
    * @param heroAll 所有英雄，为了计算分数
    * @param weaponAll 所有武器，为了获取武器价格
+   * @param iconAll 所有画像
    */
-  static create(meta: any, heroAll: Hero[], weaponAll: Weapon[]): Account {
+  static create(
+    meta: any,
+    heroAll: Hero[],
+    weaponAll: Weapon[],
+    iconAll: Icon[],
+  ): Account {
     const account = new Account();
     const _meta = meta;
     const equip_desc_obj = JSON.parse(_meta.equip_desc);
-    const other_info_obj = JSON.parse(_meta.other_info); // todo:计算画像
     account.id = _meta.game_ordersn;
     account.meta = _meta;
     account.price = _meta.price;
@@ -224,16 +253,19 @@ export class Account {
     account.weaponList = equip_desc_obj.gear.map(
       (i: any) => new AccountWeapon(i),
     );
-    account.analyse(heroAll, weaponAll);
+    account.iconList = equip_desc_obj.dynamic_icon.map((i: any) => {
+      return new AccountIcon(i);
+    });
+    account.analyse(heroAll, weaponAll, iconAll);
     return account;
   }
 
-  analyse(heroAll: Hero[], weaponAll: Weapon[]) {
+  analyse(heroAll: Hero[], weaponAll: Weapon[], iconAll: Icon[]) {
     this.computeHeroScore(heroAll);
     this.computeSkillScore();
     this.computeWeaponPrice(weaponAll);
     this.computeScore();
-    this.computeTag(heroAll);
+    this.computeTag(heroAll, iconAll);
   }
 
   /**
@@ -320,8 +352,9 @@ export class Account {
   }
 
   // 生成tag
-  computeTag(heroAll: Hero[]) {
+  computeTag(heroAll: Hero[], iconAll: Icon[]) {
     this.tag = [];
+    // 核心武将标签
     let sevenHeroNum = 0;
     this.heroList.forEach((hero) => {
       const findHero = heroAll.find((h) => h.id === hero.id);
@@ -331,6 +364,20 @@ export class Account {
     });
     if (sevenHeroNum >= 9) {
       this.tag.push('S赛季核心全');
+    }
+    // 画像标签
+    if (this.iconList) {
+      let dyNum = 0;
+      const dynamicIconList = iconAll.filter((i) => i.type === '1');
+      this.iconList.forEach((icon) => {
+        const findIcon = dynamicIconList.find((i) => i.id === icon.id);
+        if (findIcon) {
+          dyNum++;
+        }
+      });
+      if (dyNum >= dynamicIconList.length - 3) {
+        this.tag.push('全动态画像');
+      }
     }
   }
 

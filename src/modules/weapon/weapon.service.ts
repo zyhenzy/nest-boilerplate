@@ -34,8 +34,6 @@ export class WeaponService {
 
   async bulkImport(): Promise<Weapon[]> {
     const weapons: Weapon[] = getAllWeapon();
-    console.log(weapons);
-    debugger;
     const weaponEntities = this.weaponRepository.create(weapons);
     return await this.weaponRepository.save(weaponEntities);
   }
