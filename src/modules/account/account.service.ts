@@ -122,8 +122,10 @@ export class AccountService {
       account.conditions = [...existingAccount.conditions, condition];
       account.intermediaryPrice = existingAccount?.intermediaryPrice || 0;
       account.analyse(heroAll, weaponAll, iconAll);
+      account.isNew = false;
     } else {
       account.conditions = [condition];
+      account.isNew = true;
     }
     return this.accountRepository.save(account);
   }

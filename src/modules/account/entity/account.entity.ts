@@ -218,6 +218,15 @@ export class Account {
   @Column({ type: 'varchar', name: 'remark', comment: '备注', default: '' })
   remark: string;
 
+  @ApiProperty({ type: Boolean })
+  @Column({
+    type: 'boolean',
+    name: 'isNew',
+    comment: '新号',
+    default: false,
+  })
+  isNew: boolean;
+
   @CreateDateColumn({ type: 'timestamp' })
   createdAt: Date;
 
