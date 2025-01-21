@@ -371,7 +371,7 @@ export class Account {
         sevenHeroNum++;
       }
     });
-    if (sevenHeroNum >= 9) {
+    if (sevenHeroNum >= 8) {
       this.tag.push('S赛季核心全');
     }
     // 画像标签
@@ -387,6 +387,20 @@ export class Account {
       if (dyNum >= dynamicIconList.length - 3) {
         this.tag.push('全动态画像');
       }
+    }
+    // 核心高满
+    let scoreHigh = true;
+    this.heroList.forEach((hero) => {
+      const findHero = heroAll.find((h) => h.id === hero.id);
+      if (findHero && (findHero.score === 7 || findHero.score === 8)) {
+        if (hero.advanceNum < 4) {
+          console.log(hero);
+          scoreHigh = false;
+        }
+      }
+    });
+    if (scoreHigh) {
+      this.tag.push('核心高满');
     }
   }
 

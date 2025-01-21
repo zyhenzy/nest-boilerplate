@@ -96,17 +96,6 @@ export const core = [
     season: 'N',
     star: 5,
   },
-  {
-    country: '2',
-    hero_id: 100028,
-    hero_type: 1,
-    icon_hero_id: 100028,
-    name: '王异',
-    pinyin: 'wangyi',
-    quality: 5,
-    season: 'N',
-    star: 5,
-  },
 ];
 
 // 半核心
@@ -151,6 +140,17 @@ export const halfCore = [
     icon_hero_id: 100649,
     name: '魏延',
     pinyin: 'weiyan',
+    quality: 5,
+    season: 'N',
+    star: 5,
+  },
+  {
+    country: '2',
+    hero_id: 100028,
+    hero_type: 1,
+    icon_hero_id: 100028,
+    name: '王异',
+    pinyin: 'wangyi',
     quality: 5,
     season: 'N',
     star: 5,
