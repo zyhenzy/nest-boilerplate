@@ -51,9 +51,9 @@
             "value": "110137"
         },
         {
-            "label": "成就·黄忠",
-            "pinyin": "chengjiuhuangzhong",
-            "value": "101307"
+            "label": "崧高维岳",
+            "pinyin": "songgaoweiyue",
+            "value": "110288"
         },
         {
             "label": "成就·王允",
@@ -84,6 +84,11 @@
             "label": "成就·步皇后",
             "pinyin": "chengjiubuhuanghou",
             "value": "101547"
+        },
+        {
+            "label": "文姬挥翰",
+            "pinyin": "wenjihuihan",
+            "value": "110286"
         },
         {
             "label": "剧暑烹茗",
@@ -194,6 +199,11 @@
             "label": "仲夏萤光",
             "pinyin": "zhongxiayingguang",
             "value": "110271"
+        },
+        {
+            "label": "成就·鲁肃",
+            "pinyin": "chengjiulusu",
+            "value": "101315"
         },
         {
             "label": "成就·荀彧",
@@ -521,6 +531,11 @@
             "value": "110147"
         },
         {
+            "label": "成就·黄忠",
+            "pinyin": "chengjiuhuangzhong",
+            "value": "101307"
+        },
+        {
             "label": "操权持衡",
             "pinyin": "caoquanchiheng",
             "value": "110169"
@@ -586,6 +601,11 @@
             "value": "101311"
         },
         {
+            "label": "芙蕖碧波",
+            "pinyin": "fuqubibo",
+            "value": "110289"
+        },
+        {
             "label": "折箭攒锋",
             "pinyin": "zhejiancuanfeng",
             "value": "110259"
@@ -644,6 +664,11 @@
             "label": "逸姿华梦",
             "pinyin": "yizihuameng",
             "value": "110176"
+        },
+        {
+            "label": "成就·刘备",
+            "pinyin": "chengjiuliubei",
+            "value": "101445"
         },
         {
             "label": "扛鼎抃牛",
@@ -761,9 +786,9 @@
             "value": "101398"
         },
         {
-            "label": "成就·鲁肃",
-            "pinyin": "chengjiulusu",
-            "value": "101315"
+            "label": "永安映喜",
+            "pinyin": "yonganyingxi",
+            "value": "110285"
         },
         {
             "label": "夭夭月华",
@@ -879,6 +904,11 @@
             "label": "投节如归",
             "pinyin": "toujierugui",
             "value": "110124"
+        },
+        {
+            "label": "宏词贺岁",
+            "pinyin": "hongcihesui",
+            "value": "110284"
         },
         {
             "label": "成就·杜预",
@@ -1051,6 +1081,11 @@
             "value": "110237"
         },
         {
+            "label": "八方同庆·动态",
+            "pinyin": "bafangtongqingdongtai",
+            "value": "101527"
+        },
+        {
             "label": "太平遗魅",
             "pinyin": "taipingyimei",
             "value": "110131"
@@ -1069,6 +1104,11 @@
             "label": "青林风暖",
             "pinyin": "qinglinfengnuan",
             "value": "110185"
+        },
+        {
+            "label": "逸姿华梦·动态",
+            "pinyin": "yizihuamengdongtai",
+            "value": "101525"
         },
         {
             "label": "倾波辞暑",
@@ -1251,9 +1291,19 @@
             "value": "101543"
         },
         {
+            "label": "虎威祝酒·动态",
+            "pinyin": "huweizhujiudongtai",
+            "value": "101528"
+        },
+        {
             "label": "成就·卞夫人",
             "pinyin": "chengjiupanfuren",
             "value": "101502"
+        },
+        {
+            "label": "四海升平·动态",
+            "pinyin": "sihaishengpingdongtai",
+            "value": "101526"
         },
         {
             "label": "横槊赋诗",
@@ -1446,9 +1496,9 @@
             "value": "110209"
         },
         {
-            "label": "成就·刘备",
-            "pinyin": "chengjiuliubei",
-            "value": "101445"
+            "label": "俊采飞狮",
+            "pinyin": "juncaifeishi",
+            "value": "110287"
         },
         {
             "label": "成就·邓艾",

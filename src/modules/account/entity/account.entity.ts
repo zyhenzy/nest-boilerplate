@@ -394,7 +394,6 @@ export class Account {
       const findHero = heroAll.find((h) => h.id === hero.id);
       if (findHero && (findHero.score === 7 || findHero.score === 8)) {
         if (hero.advanceNum < 4) {
-          console.log(hero);
           scoreHigh = false;
         }
       }

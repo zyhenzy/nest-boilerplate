@@ -61,7 +61,7 @@ export const huang = [
   },
 ];
 
-// 核心
+// S核心
 export const core = [
   {
     country: '4',
@@ -98,7 +98,7 @@ export const core = [
   },
 ];
 
-// 半核心
+// S半核心
 export const halfCore = [
   {
     country: '5',
@@ -254,6 +254,17 @@ export const xpCore = [
     icon_hero_id: 100791,
     name: '陆逊',
     pinyin: 'luxun',
+    quality: 5,
+    season: 'XP',
+    star: 5,
+  },
+  {
+    country: '1',
+    hero_id: 100794,
+    hero_type: 2,
+    icon_hero_id: 100794,
+    name: '荀彧',
+    pinyin: 'xunyu',
     quality: 5,
     season: 'XP',
     star: 5,
@@ -545,7 +556,6 @@ export const useful = [
     season: 'SP',
     star: 5,
   },
-
   {
     country: '5',
     hero_id: 100771,
@@ -623,7 +633,6 @@ export const useful = [
     season: 'N',
     star: 5,
   },
-
   {
     country: '5',
     hero_id: 100377,
