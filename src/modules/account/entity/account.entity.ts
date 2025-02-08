@@ -198,7 +198,7 @@ export class Account {
   @Column({
     type: 'int',
     name: 'status',
-    comment: '状态（0已取回 1未上架 2在售 6已售出）',
+    comment: '状态（0已取回 1未上架 2在售 3在售2 6已售出）',
     default: 0,
   })
   status: number;
@@ -364,16 +364,16 @@ export class Account {
   computeTag(heroAll: Hero[], iconAll: Icon[]) {
     this.tag = [];
     // 核心武将标签
-    let sevenHeroNum = 0;
-    this.heroList.forEach((hero) => {
-      const findHero = heroAll.find((h) => h.id === hero.id);
-      if (findHero && findHero.score >= 7) {
-        sevenHeroNum++;
-      }
-    });
-    if (sevenHeroNum >= 8) {
-      this.tag.push('S赛季核心全');
-    }
+    // let sevenHeroNum = 0;
+    // this.heroList.forEach((hero) => {
+    //   const findHero = heroAll.find((h) => h.id === hero.id);
+    //   if (findHero && findHero.score >= 7) {
+    //     sevenHeroNum++;
+    //   }
+    // });
+    // if (sevenHeroNum >= 8) {
+    //   this.tag.push('S赛季核心全');
+    // }
     // 画像标签
     if (this.iconList) {
       let dyNum = 0;
