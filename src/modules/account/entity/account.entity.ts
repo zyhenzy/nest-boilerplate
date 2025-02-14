@@ -206,6 +206,15 @@ export class Account {
   @ApiProperty({ type: Boolean })
   @Column({
     type: 'boolean',
+    name: 'completeCore',
+    comment: '核心全',
+    default: false,
+  })
+  completeCore: boolean;
+
+  @ApiProperty({ type: Boolean })
+  @Column({
+    type: 'boolean',
     name: 'apprentice',
     comment: '试师',
     default: false,
@@ -363,17 +372,15 @@ export class Account {
   // 生成tag
   computeTag(heroAll: Hero[], iconAll: Icon[]) {
     this.tag = [];
-    // 核心武将标签
-    // let sevenHeroNum = 0;
-    // this.heroList.forEach((hero) => {
-    //   const findHero = heroAll.find((h) => h.id === hero.id);
-    //   if (findHero && findHero.score >= 7) {
-    //     sevenHeroNum++;
-    //   }
-    // });
-    // if (sevenHeroNum >= 8) {
-    //   this.tag.push('S赛季核心全');
-    // }
+    // 核心武将齐全判断
+    let sevenHeroNum = 0;
+    this.heroList.forEach((hero) => {
+      const findHero = heroAll.find((h) => h.id === hero.id);
+      if (findHero && findHero.score >= 7) {
+        sevenHeroNum++;
+      }
+    });
+    this.completeCore = sevenHeroNum >= 8;
     // 画像标签
     if (this.iconList) {
       let dyNum = 0;
