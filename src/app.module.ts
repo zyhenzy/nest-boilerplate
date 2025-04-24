@@ -20,7 +20,7 @@ import { IconModule } from './modules/icon/icon.module';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: '123456',
+      password: 'love20230426',
       database: 'stzb',
       entities: [Hero, Weapon, Condition, Account, Icon],
       synchronize: true,

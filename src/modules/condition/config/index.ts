@@ -1,5 +1,5 @@
 export const TOKEN_URL =
-  '/Users/zhangying/个人/boilerplate/nest-boilerplate/src/static/token.txt';
+  '/Users/yingzhang/个人/boilerplate/nest-boilerplate/src/static/token.txt';
 
 export const ACCOUNT_URL = 'https://stzb.cbg.163.com/cgi-bin/recommend.py'; // 账号列表url
 export const ACCOUNT_DETAIL_URL =
