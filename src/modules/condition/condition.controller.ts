@@ -10,7 +10,12 @@ import {
 import { ConditionService } from './condition.service';
 import { Condition } from './entity/condition.entity';
 import { ApiOperation } from '@nestjs/swagger';
-import { ConditionRefreshDto, CookieDto } from './dto/cookie.dto';
+import {
+  ConditionRefreshDto,
+  CookieDto,
+  InterpretIntermediaryDto,
+  JSONInsertDto,
+} from './dto/cookie.dto';
 
 @Controller('condition')
 export class ConditionController {
@@ -89,5 +94,26 @@ export class ConditionController {
   @Post('/refresh')
   refresh(@Body() conditionRefreshDto: ConditionRefreshDto) {
     return this.conditionService.refresh(conditionRefreshDto.id);
+  }
+
+  @ApiOperation({
+    summary: 'AI解读中介信息',
+    description: 'AI解读中介信息',
+  })
+  @Post('/intermediary')
+  intermediary(@Body() interpretIntermediaryDto: InterpretIntermediaryDto) {
+    return this.conditionService.interpretIntermediaryInfo(
+      interpretIntermediaryDto.id,
+      interpretIntermediaryDto.info,
+    );
+  }
+
+  @ApiOperation({
+    summary: 'JSON插入中介账号，（带有id和price的账号价格列表）',
+    description: 'JSON插入中介账号，（带有id和price的账号价格列表）',
+  })
+  @Post('/insertJSON')
+  insertJSON(@Body() jsonInsertDto: JSONInsertDto) {
+    return this.conditionService.insertJSON(jsonInsertDto);
   }
 }

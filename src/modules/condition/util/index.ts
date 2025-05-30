@@ -83,3 +83,20 @@ export const fetchAccountDetail = async (game_ordersn: string) => {
     throw new Error('获取账号详情失败');
   }
 };
+
+export const getMdJson = (markdown: string): any[] => {
+  const jsonObjects: any[] = [];
+  const jsonRegex = /```json([\s\S]*?)```/g; // Matches JSON blocks in Markdown
+
+  let match;
+  while ((match = jsonRegex.exec(markdown)) !== null) {
+    try {
+      const jsonObject = JSON.parse(match[1].trim());
+      jsonObjects.push(jsonObject);
+    } catch (error) {
+      console.error('Invalid JSON found in Markdown:', match[1]);
+    }
+  }
+
+  return jsonObjects;
+};

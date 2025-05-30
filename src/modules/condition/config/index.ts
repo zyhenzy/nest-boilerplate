@@ -55,3 +55,10 @@ export const ApprenticeCode = [
   42690, 42691, 42680, 42681, 42682, 42683, 42671, 42672, 42673, 42674, 42675,
   42676,
 ]; // 试师区code编码
+
+export const DeepSeekKey = 'sk-b193fab93f614421bc891838b6556ab2'; // DeepSeek API Key
+
+export const SystemPrompt =
+  '给你一段类似这样的文本：7000议价出，14红徐晃蜀骑 13红核弹 11红撸铁 鬼吕网红 。SS5273https://stzb.cbg.163.com/cgi/mweb/equip/1/202505200102116-1-PVPNPIDL9NHDXO ，帮我提去成{id:202505200102116-1-PVPNPIDL9NHDXO,price:7000}这种结构化的JSON'; // DeepSeek AI系统提示词
+
+// export const SystemPrompt = '日常聊天';
